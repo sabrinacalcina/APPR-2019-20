@@ -12,7 +12,7 @@ Uporabila bom podatke, ki sem jih pridobila na spletni strani Statističnega ura
 
 ### Tabele
 
-* 1.TABELA: Brezposelni po trajanju iskanja dela, spolu in kohezijskih regijah, Slovenija, letno "\n"
+* 1.TABELA: Brezposelni po trajanju iskanja dela, spolu in kohezijskih regijah, Slovenija, letno 
 (Vhodne tabele združene v 1. tabelo bodo v obliki XLSX.)
 
 * 2.TABELA: Brezposelni po stopnjah dosežene izobrazbe, spolu in kohezijskih regijah, Slovenija, letno 
