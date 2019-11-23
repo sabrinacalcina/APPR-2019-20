@@ -1,5 +1,4 @@
-# Analiza podatkov s programom R, 2019/20
-aaa
+# Analiza brezposelnosti v Sloveniji
 
 Repozitorij z gradivi pri predmetu APPR v študijskem letu 2019/20
 
@@ -8,8 +7,12 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2019/20
 
 ## Tematika
 
-Izbrali si boste temo, s katero se bo vaš projekt ukvarjal.
-Tukaj boste napisali, kje ste dobili podatke, ter kakšen je vaš cilj.
+V tej projektni nalogi bom analizirala  brezposelnost v Sloveniji, glede na spol, starost in izobrazbo ter glede na statistične regije v Sloveniji.
+Uporabila bom podatke, ki sem jih pridobila na spletni strani Statističnega urada Republike Slovenije(SURS).
+
+Z analizo podatkov bi rada ugotovila, kako se je brezposelnost spreminjala glede na zgoraj naštete dejavnike ter kolikšna je danes stopnja brezposelnosti glede na prejšnja leta. 
+
+
 
 ## Program
 
