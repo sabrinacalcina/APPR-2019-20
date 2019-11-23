@@ -7,10 +7,25 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2019/20
 
 ## Tematika
 
-V tej projektni nalogi bom analizirala  brezposelnost v Sloveniji, glede na spol, starost in izobrazbo ter glede na statistične regije v Sloveniji.
+V tej projektni nalogi bom analizirala  brezposelnost v Sloveniji, glede na spol, starost,  izobrazbo in trajanju iskanja dela ter glede na statistične regije v Sloveniji.
 Uporabila bom podatke, ki sem jih pridobila na spletni strani Statističnega urada Republike Slovenije(SURS).
 
-Z analizo podatkov bi rada ugotovila, kako se je brezposelnost spreminjala glede na zgoraj naštete dejavnike ter kolikšna je danes stopnja brezposelnosti glede na prejšnja leta. 
+### Tabele
+
+*1. TABELA: Brezposelni po trajanju iskanja dela, spolu in kohezijskih regijah, Slovenija, letno
+(Vhodne tabele združene v 1. tabelo bodo v obliki XLSX.)
+
+*2. TABELA: Brezposelni po stopnjah dosežene izobrazbe, spolu in kohezijskih regijah, Slovenija, letno
+(Vhodne tabele združene v 2. tabelo bodo v obliki CSV.)
+
+*3.TABELA: Delovno sposobni glede na aktivnost in mere aktivnosti po starostnih skupinah, spolu in kohezijskih regijah, Slovenija, letno
+(Vhodne tabele združene v 3. tabelo bodo v obliki HTML.)
+
+*4.TABELA: Mere aktivnosti po statističnih regijah, Slovenija, letno
+(Vhodne tabele združene v 4. tabelo bodo v obliki CSV.)
+
+
+Z analizo podatkov bi rada ugotovila, kako se je brezposelnost spreminjala glede na zgoraj naštete dejavnike.
 
 
 
