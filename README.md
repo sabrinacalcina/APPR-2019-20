@@ -12,16 +12,16 @@ Uporabila bom podatke, ki sem jih pridobila na spletni strani Statističnega ura
 
 ### Tabele
 
-*1. TABELA: Brezposelni po trajanju iskanja dela, spolu in kohezijskih regijah, Slovenija, letno
+* 1. TABELA: Brezposelni po trajanju iskanja dela, spolu in kohezijskih regijah, Slovenija, letno \n
 (Vhodne tabele združene v 1. tabelo bodo v obliki XLSX.)
 
-*2. TABELA: Brezposelni po stopnjah dosežene izobrazbe, spolu in kohezijskih regijah, Slovenija, letno
+* 2. TABELA: Brezposelni po stopnjah dosežene izobrazbe, spolu in kohezijskih regijah, Slovenija, letno \n 
 (Vhodne tabele združene v 2. tabelo bodo v obliki CSV.)
 
-*3.TABELA: Delovno sposobni glede na aktivnost in mere aktivnosti po starostnih skupinah, spolu in kohezijskih regijah, Slovenija, letno
+* 3.TABELA: Delovno sposobni glede na aktivnost in mere aktivnosti po starostnih skupinah, spolu in kohezijskih regijah, Slovenija, letno \n
 (Vhodne tabele združene v 3. tabelo bodo v obliki HTML.)
 
-*4.TABELA: Mere aktivnosti po statističnih regijah, Slovenija, letno
+* 4.TABELA: Mere aktivnosti po statističnih regijah, Slovenija, letno \n
 (Vhodne tabele združene v 4. tabelo bodo v obliki CSV.)
 
 
