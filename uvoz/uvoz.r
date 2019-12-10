@@ -24,7 +24,7 @@ uvozi.obcine <- function() {
     }
   }
   for (col in c("obcina", "pokrajina", "regija")) {
-    tabela[[col]] <- factor(tabela[[col]])
+    tabela[[col]] <- factor(tabela[[col]])2e
   }
   return(tabela)
 }
