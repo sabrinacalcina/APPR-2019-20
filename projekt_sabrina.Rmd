@@ -1,0 +1,136 @@
+---
+title: "Poročilo pri predmetu Analiza podatkov s programom R"
+author: "Sabrina Ca"
+output:
+  html_document: default
+  pdf_document:
+    includes:
+      in_header: lib/styles.sty
+    latex_engine: xelatex
+runtime: shiny
+---
+
+```{r setup, echo=FALSE, results='hide', message=FALSE, warning=FALSE}
+# Če želimo nastaviti pisave v PDF-ju, odkomentiramo
+# in sledimo navodilom v programu.
+#source("fontconfig.r", encoding="UTF-8")
+
+# Uvoz vseh potrebnih knjižnic
+source("lib/libraries.r", encoding="UTF-8")
+```
+
+```{r rstudio, echo=FALSE, results='asis'}
+# Izris povezave do RStudia na Binderju
+source("lib/rstudio.r", encoding="UTF-8")
+```
+
+# Izbira teme-uvod
+
+V projektu bom analizirala brezposelnost v Sloveniji.
+
+Z analizo podatkov bom poskusila najti vzporednice med 
+-brezposelnostjo in stopnjo izobrazbe 
+-brezposelnostjo in številom kriminalnih dejanj glede na stopnjo izobrazbe v zadnjih dveh letih, glede na celotno Slovenijo
+-kolikšna je brezposelnost po različnih regijah v Sloveniji
+ter nekatere druge primerjave.
+
+
+# Obdelava, uvoz in čiščenje podatkov
+
+```{r uvoz, echo=FALSE, message=FALSE}
+source("uvoz/uvoz.r", encoding="UTF-8")
+```
+
+Uvozila sem podatke, ki sem jih pridobila na spletni strani Statističnega urada republike Slovenije.
+Uredila sem jih v obliko *tidy data*.
+
+
+1. TABELA: (brezposelnost.iskanje: Brezposelnost po trajanju iskanja dela):
+
+- "kohezijska_regija" - spremenljivka: kohezijska regija
+- "spol" - spremenljivka: spol
+- "leto" - spremenljivka: leto
+- "manj_kot_en_mesec" - spremenljivka: Brezposelni, ki iščejo zaposlitev manj kot en mesec
+- "od_1_do_5_mesecev" - spremenljivka: Brezposelni, ki iščejo zaposelitev od 1 do 5 mesecev
+- "od_6_do_11_mesecev" - spremenljivka: Brezposelni, ki iščejo zaposlitev od 6 do 11 mesecev
+- "od_12_do_23_mesecev" - spremenljivka: Brezposelni, ki iščejo zaposlitev od 12 do 23 mesecevveč kot 24 mesecev
+
+
+2. TABELA: (brezposelnost.kriminaliteta: Obsojenci po kaznivem dejanju, izobrazbi in statusu aktivnosti)
+
+- "aktivnost" - spremenljivka: Delovna aktivnost prebivalca
+- "leto" - spremenljivka: leto
+- "brez_solske_zobrazbe" - spremenljivka: število kriminalnih dejanj storjenih iz strani ljudi z nedokončano osnovnošolsko izobrazbo
+- "odnovnosolska_izobrazba" - spremenljivka: število kriminalnih dejanj storjenih iz strani ljudi z osnovnošolsko izobrazbo
+- "poklicna_ali_srednja_izobrazba" - spremenljivka: število kriminalnih dejanj storjenih iz strani ljudi s poklicno ali srednješolsko izobrazbo
+- "visjesolska_izobrazba" - spremenljivka: število kriminalnih dejanj storjenih iz strani ljudi z visjesolsko izobrazbo
+- "visokosolska_izobrazba_prve_stopnje" - spremenljivka: število kriminalnih dejanj storjenih iz strani ljudi z visokošolsko izobrazbo prve stopnje
+- "visokosolska_izobrazba_druge_stopnje" - spremenljivka: število kriminalnih dejanj storjenih iz strani ljudi z visokošolsko izobrazbo druge stopnje
+- "magisterij" - spremenljivka: spremenljivka: število kriminalnih dejanj storjenih iz strani ljudi z magisterijem
+
+
+3.TABELA: (brezposelnost.izobrazba: Brezposelnost glede na stopnjo dosežene izobrazbe)
+- "leto" - spremenljivka: leto
+- "Kohezijska_regija" - spremenljivka: kohezijska regija
+- "Spol" - spremenljivka:  spol
+- "brez_izobrazbe" - spremenljivka: število brezposelnih brez izobrazbe oz z nedokončano osnovnošolsko izobrazbo
+- "osnovnosolska_izobrazba" - spremenljivka: število brezposelnih z osnovnošolsko izobrazbo
+- "nizja_ali_srednja" - spremenljivka: število brezposelnih z nižjo ali srednjo poklicno izobrazbo
+- "srednja_strokovna" - spremenljivka: število brezposelnih s srednje strokovno izobrazbo
+- "visjesolska_visokosolska" - spremenljivka: število brezposelnih z visokošolsko ter višješolsko izobrazbo
+
+
+4.TABELA: (brezposelnost.regije: Brezposelnost glede na statistične regije v Sloveniji)
+- 'leto' - spremenljivka: leto
+- 'statistična_regija' - spremenljivka: Statistična regija Slovenije
+- 'stopnja_aktivnosti'- spremenljivka: Stopnja aktivnosti (v %)
+- "stopnja_delovne_aktivnosti" - spremenljivka: Stopnja delovne aktivnosti (v %)
+- 'Stopnja_brezposelnosti' - spremenljivka: Stopnja brezposelnosti (v %)
+- 'delovna_aktivnost_glede_na_starostno_skupino' - spremenljivka: Stopnja delovne aktivnosti v starostni skupini od 20-64 let (v %)
+
+
+
+***
+
+# Analiza in vizualizacija podatkov
+
+
+```{r vizualizacija, echo=FALSE, message=FALSE, warning=FALSE, results='hide'}
+source("vizualizacija/vizualizacija.r", encoding="UTF-8")
+```
+
+Spodnji zemljevid prikazuje število brezposelnosti po statističnih regijah v Sloveniji.
+
+
+```{r zemljevid, echo=FALSE, fig.align='center', fig.cap='Zemljevid povprečnega števila otrok v družini'}
+ggplot() + geom_polygon(data=left_join(zemljevid, povprecja, by=c("OB_UIME"="obcina")),
+                        aes(x=long, y=lat, group=group, fill=povprecje)) +
+  ggtitle("Povprečno število otrok v družini") + xlab("") + ylab("") +
+  guides(fill=guide_colorbar(title="Povprečje"))
+```
+
+***
+
+# Napredna analiza podatkov
+
+```{r analiza, echo=FALSE, message=FALSE}
+source("analiza/analiza.r", encoding="UTF-8")
+```
+
+Spodnji graf prikazuje povezavo med številom naselij in površino občine.
+
+```{r graf, echo=FALSE, fig.align='center', fig.cap='Povezava med številom naselij in površino občine'}
+ggplot(inner_join(obcine, data.frame(obcina=names(skupine),
+                                     skupina=factor(skupine)), by="obcina")
+, aes(x=povrsina, y=naselja, color=skupina, size=prebivalci/1000)) + geom_point() +
+  ggtitle("Število naselij glede na površino občine") +
+  xlab(expression("Površina (km"^2 * ")")) + ylab("Št. naselij") +
+  guides(color=guide_legend(title="Skupina"),
+         size=guide_legend(title="Prebivalci (* 1000)"))
+```
+
+***
+
+```{r shiny, echo=FALSE}
+shinyAppDir("shiny", options=list(width="100%", height=600))
+```
