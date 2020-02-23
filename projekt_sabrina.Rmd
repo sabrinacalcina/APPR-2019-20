@@ -1,6 +1,6 @@
 ---
-title: "Poročilo pri predmetu Analiza podatkov s programom R"
-author: "Sabrina Ca"
+title: "Brezposelnost v Sloveniji"
+author: "Sabrina Calcina"
 output:
   html_document: default
   pdf_document:
@@ -29,19 +29,19 @@ source("lib/rstudio.r", encoding="UTF-8")
 V projektu bom analizirala brezposelnost v Sloveniji.
 
 Z analizo podatkov bom poskusila najti vzporednice med 
--brezposelnostjo in stopnjo izobrazbe 
--brezposelnostjo in številom kriminalnih dejanj glede na stopnjo izobrazbe v zadnjih dveh letih, glede na celotno Slovenijo
--kolikšna je brezposelnost po različnih regijah v Sloveniji
+brezposelnostjo in stopnjo izobrazbe,  
+brezposelnostjo in trajanjem iskanja dela, 
+kolikšna je brezposelnost po različnih regijah v Sloveniji 
 ter nekatere druge primerjave.
 
 
 # Obdelava, uvoz in čiščenje podatkov
 
 ```{r uvoz, echo=FALSE, message=FALSE}
-source("uvoz/uvoz.r", encoding="UTF-8")
+source("uvoz/uvoz_s.r", encoding="UTF-8")
 ```
 
-Uvozila sem podatke, ki sem jih pridobila na spletni strani Statističnega urada republike Slovenije.
+Uvozila sem podatke, ki sem jih pridobila na spletni strani Statističnega urada Republike Slovenije.
 Uredila sem jih v obliko *tidy data*.
 
 
@@ -96,41 +96,61 @@ Uredila sem jih v obliko *tidy data*.
 
 
 ```{r vizualizacija, echo=FALSE, message=FALSE, warning=FALSE, results='hide'}
-source("vizualizacija/vizualizacija.r", encoding="UTF-8")
+source("vizualizacija/vizualizacija_sabrina.r", encoding="UTF-8")
 ```
 
-Spodnji zemljevid prikazuje število brezposelnosti po statističnih regijah v Sloveniji.
+Za začetek bi rada predstavila kako se je brezposelnost spreminjala v zadnjih desetih letih glede na celotno Slovenijo. Opazimo lahko, da je največja stopnja brezposelnosti dosežena leta 2012.
 
-
-```{r zemljevid, echo=FALSE, fig.align='center', fig.cap='Zemljevid povprečnega števila otrok v družini'}
-ggplot() + geom_polygon(data=left_join(zemljevid, povprecja, by=c("OB_UIME"="obcina")),
-                        aes(x=long, y=lat, group=group, fill=povprecje)) +
-  ggtitle("Povprečno število otrok v družini") + xlab("") + ylab("") +
-  guides(fill=guide_colorbar(title="Povprečje"))
+```{r graf 1, echo=FALSE, fig.align='center', fig.cap='Graf 1'}
+plot(osnovni_graf)
 ```
+
+V nadaljevanju, nas bo zanimala bolj podrobna slika brezposelnosti v Sloveniji, zato si oglejmo graf brezposelnosti po statističnih regijah, ter zlahka opazimo da je bil višek brezposelnosti v Pomurski in Zasavski regiji.
+
+
+```{r graf 2, echo=FALSE, fig.align='center', fig.cap='Graf 1'}
+plot(vec_graf)
+```
+
+
+Poglejmo to še na zemljevidu Slovenije in sicer najprej za leto 2010, ter nato še za 2018.
+
+```{r zemljevid 1, echo=FALSE, fig.align='center', fig.cap='Zemljevid 1'}
+plot(zemljevid.brezposelnost.2010)
+```
+
+```{r zemljevid 2, echo=FALSE, fig.align='center', fig.cap='Zemljevid 1'}
+plot(zemljevid.brezposelnost.2018)
+```
+
+Iz zemljevidov je jasno razvidno, da je brezposelnost višja v odročnih krajih Slovenije. Leta 2010 je bila brezoselnost najvišja v Prekmurju in sier 11.7, takoj za njo pa je posavska regija z 9.1 in Podravska z 9.0.
+Leta 2018 je slika nekoliko spremenjena. Še vedno je brezposelnost najvišja v Prekmorju vendar se je le ta znižala na 9.2 procenta, medtem ko je v Primorsko-notranjski regiji iz 4.5 narasla na 7.0 procenta. Kar nakazuje na prej omenjen problem odročnih krajev. 
+
 
 ***
+Omenili smo že, da nas bo zanimala povezava med brezposelnostjo in stopnjo dosežene izobrazbe.
 
+```{r graf 3, echo=FALSE, fig.align='center', fig.cap='Graf 1'}
+plot(graf_izobrazba)
+```
+
+
+
+
+***
 # Napredna analiza podatkov
 
-```{r analiza, echo=FALSE, message=FALSE}
-source("analiza/analiza.r", encoding="UTF-8")
+#```{r analiza, echo=FALSE, message=FALSE}
+#source("analiza/analiza.r", encoding="UTF-8")
 ```
 
 Spodnji graf prikazuje povezavo med številom naselij in površino občine.
 
-```{r graf, echo=FALSE, fig.align='center', fig.cap='Povezava med številom naselij in površino občine'}
-ggplot(inner_join(obcine, data.frame(obcina=names(skupine),
-                                     skupina=factor(skupine)), by="obcina")
-, aes(x=povrsina, y=naselja, color=skupina, size=prebivalci/1000)) + geom_point() +
-  ggtitle("Število naselij glede na površino občine") +
-  xlab(expression("Površina (km"^2 * ")")) + ylab("Št. naselij") +
-  guides(color=guide_legend(title="Skupina"),
-         size=guide_legend(title="Prebivalci (* 1000)"))
+
 ```
 
 ***
 
-```{r shiny, echo=FALSE}
-shinyAppDir("shiny", options=list(width="100%", height=600))
+#```{r shiny, echo=FALSE}
+#shinyAppDir("shiny", options=list(width="100%", height=600))
 ```
