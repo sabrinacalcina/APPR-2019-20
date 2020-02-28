@@ -48,48 +48,48 @@ Uvozila sem podatke, ki sem jih pridobila na spletni strani Statističnega urada
 Uredila sem jih v obliko *tidy data*.
 
 
-1. TABELA: (brezposelnost.iskanje: Brezposelnost po trajanju iskanja dela):
+1. TABELA: (brezposelnost_po_statisticnih_regijah: Stopnja brezposelnosti po statističnih regijah v Sloveniji):
 
-- "kohezijska_regija" - spremenljivka: kohezijska regija
-- "spol" - spremenljivka: spol
-- "leto" - spremenljivka: leto
-- "manj_kot_en_mesec" - spremenljivka: Brezposelni, ki iščejo zaposlitev manj kot en mesec
-- "od_1_do_5_mesecev" - spremenljivka: Brezposelni, ki iščejo zaposelitev od 1 do 5 mesecev
-- "od_6_do_11_mesecev" - spremenljivka: Brezposelni, ki iščejo zaposlitev od 6 do 11 mesecev
-- "od_12_do_23_mesecev" - spremenljivka: Brezposelni, ki iščejo zaposlitev od 12 do 23 mesecevveč kot 24 mesecev
+- 1.  leto - spremenljivka: leto, v katerem so bile opravljene meritve
+- 2.  regija - spremenljivka: regija, v kateri so opravljali meritve
+- 3.  stopnja_brezposelnosti - meritev: brezposelnost v procentih
 
+2. TABELA: (slovenija: Brezposelnost glede na celotno Slovenijo na 1000 prebivalcev)
 
-2. TABELA: (brezposelnost.kriminaliteta: Obsojenci po kaznivem dejanju, izobrazbi in statusu aktivnosti)
+- 1.  leto - spremenljivka: leto, v katerem so bile opravljene meritve
+- 2.  brezposelnost - meritev: brezposelnost na 1000 prebivalcev
 
-- "aktivnost" - spremenljivka: Delovna aktivnost prebivalca
-- "leto" - spremenljivka: leto
-- "brez_solske_zobrazbe" - spremenljivka: število kriminalnih dejanj storjenih iz strani ljudi z nedokončano osnovnošolsko izobrazbo
-- "odnovnosolska_izobrazba" - spremenljivka: število kriminalnih dejanj storjenih iz strani ljudi z osnovnošolsko izobrazbo
-- "poklicna_ali_srednja_izobrazba" - spremenljivka: število kriminalnih dejanj storjenih iz strani ljudi s poklicno ali srednješolsko izobrazbo
-- "visjesolska_izobrazba" - spremenljivka: število kriminalnih dejanj storjenih iz strani ljudi z visjesolsko izobrazbo
-- "visokosolska_izobrazba_prve_stopnje" - spremenljivka: število kriminalnih dejanj storjenih iz strani ljudi z visokošolsko izobrazbo prve stopnje
-- "visokosolska_izobrazba_druge_stopnje" - spremenljivka: število kriminalnih dejanj storjenih iz strani ljudi z visokošolsko izobrazbo druge stopnje
-- "magisterij" - spremenljivka: spremenljivka: število kriminalnih dejanj storjenih iz strani ljudi z magisterijem
+3.TABELA: (trajanje: Brezposelnost po trajanju iskanja dela za celotno Slovenijo)
 
+- 1.  cas - koliko časa so ljudje brezposelni
+- 2.  leto - spremenljivka: leto, v katerem so bile opravljene meritve
+- 3.  brezposelnost - meritev: brezposelnost na 1000 prebivalcev
 
-3.TABELA: (brezposelnost.izobrazba: Brezposelnost glede na stopnjo dosežene izobrazbe)
-- "leto" - spremenljivka: leto
-- "Kohezijska_regija" - spremenljivka: kohezijska regija
-- "Spol" - spremenljivka:  spol
-- "brez_izobrazbe" - spremenljivka: število brezposelnih brez izobrazbe oz z nedokončano osnovnošolsko izobrazbo
-- "osnovnosolska_izobrazba" - spremenljivka: število brezposelnih z osnovnošolsko izobrazbo
-- "nizja_ali_srednja" - spremenljivka: število brezposelnih z nižjo ali srednjo poklicno izobrazbo
-- "srednja_strokovna" - spremenljivka: število brezposelnih s srednje strokovno izobrazbo
-- "visjesolska_visokosolska" - spremenljivka: število brezposelnih z visokošolsko ter višješolsko izobrazbo
+4.TABELA: (izobrazba: Brezposelnost glede na stopnjo dosežene izobrazbe)
+
+- 1.  leto - spremenljivka: leto, v katerem so bile opravljene meritve
+- 2.  izobrazbe - spremenljivka: dosežena stopnja izobrazbe (Brez izobrazbe, Osnovnošolska, Nižja ali srednja poklicna, Srednja strokovna-splošna, Višješolska-visokošolska	)
+- 3.  brezposelnost - meritev: brezposelnost na 1000 prebivalcev
+
+5.TABELA: (kriminaliteta: Kriminaliteta v Sloveniji glede na statistične regije)
+
+- 1.  regija - spremenljivka: regija, v kateri so opravljali meritve
+- 2.  leto - spremenljivka: leto, v katerem so bile opravljene meritve
+- 3.  obsojeni - meritev: število obsojenih polnoletnih in mladoletnih
 
 
-4.TABELA: (brezposelnost.regije: Brezposelnost glede na statistične regije v Sloveniji)
-- 'leto' - spremenljivka: leto
-- 'statistična_regija' - spremenljivka: Statistična regija Slovenije
-- 'stopnja_aktivnosti'- spremenljivka: Stopnja aktivnosti (v %)
-- "stopnja_delovne_aktivnosti" - spremenljivka: Stopnja delovne aktivnosti (v %)
-- 'Stopnja_brezposelnosti' - spremenljivka: Stopnja brezposelnosti (v %)
-- 'delovna_aktivnost_glede_na_starostno_skupino' - spremenljivka: Stopnja delovne aktivnosti v starostni skupini od 20-64 let (v %)
+
+SPLETNE POVEZAVE DO TABEL:
+
+- [Stopnja brezposelnosti po statističnih regijah v Sloveniji](<https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__07_trg_dela__02_07008_akt_preb_po_anketi__02_07621_akt_preb_ADS_letno/0762115S.px/>)
+
+- [Brezposelnost glede na celotno Slovenijo na 1000 prebivalcev](<https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__07_trg_dela__02_07008_akt_preb_po_anketi__02_07621_akt_preb_ADS_letno/0762103S.px/table/tableViewLayout2/>)
+
+- [Brezposelnost po trajanju iskanja dela](<https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__07_trg_dela__02_07008_akt_preb_po_anketi__02_07621_akt_preb_ADS_letno/0762111S.px/>)
+
+- [Brezposelnost po stopnji dosežene izobrazbe](<https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__07_trg_dela__02_07008_akt_preb_po_anketi__02_07621_akt_preb_ADS_letno/0762112S.px/>)
+
+- [Kriminaliteta v Sloveniji glede na statistične regije](<https://pxweb.stat.si/SiStatDb/pxweb/sl/10_Dem_soc/10_Dem_soc__13_kriminaliteta__01_statistika_toz_sodisc__10_13722_obsojene_kazalniki/1372202s.px/>)
 
 
 
@@ -102,7 +102,7 @@ Uredila sem jih v obliko *tidy data*.
 source("vizualizacija/vizualizacija_sabrina.r", encoding="UTF-8")
 ```
 
-Za začetek bi rada predstavila kako se je brezposelnost spreminjala v zadnjih desetih letih glede na celotno Slovenijo. Opazimo lahko, da je največja stopnja brezposelnosti dosežena leta 2012.
+Za začetek bi rada predstavila kako se je brezposelnost spreminjala v zadnjih desetih letih glede na celotno Slovenijo. Opazimo lahko, da je največja stopnja brezposelnosti dosežena leta 2013.
 
 ```{r graf 1, echo=FALSE, fig.align='center', fig.cap='Graf 1'}
 plot(osnovni_graf)
@@ -126,7 +126,7 @@ plot(zemljevid.brezposelnost.2010)
 plot(zemljevid.brezposelnost.2018)
 ```
 
-Iz zemljevidov je jasno razvidno, da je brezposelnost višja v odročnih krajih Slovenije. Leta 2010 je bila brezoselnost najvišja v Prekmurju in sier 11.7, takoj za njo pa je posavska regija z 9.1 in Podravska z 9.0.
+Iz zemljevidov je razvidno, da je brezposelnost višja v odročnih krajih Slovenije. Leta 2010 je bila brezoselnost najvišja v Prekmurju in sier 11.7, takoj za njo pa je posavska regija z 9.1 in Podravska z 9.0.
 Leta 2018 je slika nekoliko spremenjena. Še vedno je brezposelnost najvišja v Prekmorju vendar se je le ta znižala na 9.2 procenta, medtem ko je v Primorsko-notranjski regiji iz 4.5 narasla na 7.0 procenta. Kar nakazuje na prej omenjen problem odročnih krajev. 
 
 
@@ -137,7 +137,16 @@ Omenili smo že, da nas bo zanimala povezava med brezposelnostjo in stopnjo dose
 plot(graf_izobrazba)
 ```
 
+Vidimo, da je največ brezposelnih tistih s končano srednjo strokovno oz splošno šolo, takoj za njimi so tisti z nižjo ali srednjo poklicno. Najmanj brezposelnih je brez izobrazbe. Vendar tu moramo biti pazljivi, saj se število ljudi znotraj razdelka razlikuje. Vemo da je tistih brez izobrazbe bistveno manj kot tistih s katerokoli izobrazbo, tako da je rezultat pričakovan, analiza pa ne najboljša. 
 
+***
+
+
+```{r graf 4, echo=FALSE, fig.align='center', fig.cap='Graf 1'}
+plot(graf_trajanje)
+```
+
+Največ je takih brezposelnih ki delo iščejo že več kot leto dni. Presenetljivo pa je takoj za tem število brezposelnih ki delo iščejo od 1 do 5 mesecev.
 
 
 ***
@@ -148,23 +157,18 @@ source("analiza/analiza_sabrina.r", encoding="UTF-8")
 ```
 
 
-```{r graf 4, echo=FALSE, fig.align='center', fig.cap='Graf 1'}
+```{r graf 5, echo=FALSE, fig.align='center', fig.cap='Graf 1'}
 plot(graf_regresija)
 ```
 
+S polinomom druge stopnje sem prikazala, kako lahko na podlagi vrednosti brezposelnosti v Sloveniji iz prejšnjih let napovemo vrednost brezposelnosti v prihodnosti do leta 2020. Vemo, da na brezposelnost poleg njenega gibanja v prejšnjih letih vpliva še veliko drugih dejavnikov, zato se na to napoved ne moremo zares zanesti.
 
 
-
-```
 
 ***
 
 ```{r shiny, echo=FALSE}
 shinyAppDir("shiny", options=list(width="100%", height=600))
-```
-
-```{r graf 5, echo=FALSE, fig.align='center', fig.cap='Graf 1'}
-plot(graf_shiny)
 ```
 
 

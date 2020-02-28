@@ -14,13 +14,13 @@ source('uvoz/uvoz_s.r', encoding = 'UTF-8')
 
 
 #Brezposelnost v Sloveniji na splošno
-osnovni_graf <- ggplot(slovenija, aes(x=leto, y=brezposelnost), )+
+osnovni_graf <- ggplot(slovenija, aes(x=leto, y=brezposelnost, fill="5"), )+
   ggtitle('Brezposelnost glede na celotno Slovenijo v 1000')+
   geom_bar(stat = 'identity', position = 'dodge')
 
 
 
-#Graf stopnje brezposelnosti skozi leta glede na staistične regije
+#Graf stopnje brezposelnosti skozi leta glede na staistične
 vec_graf <- ggplot(data = graf_regije, mapping = aes(x=regija, y=stopnja_brezposelnosti, fill=factor(leto))) +
   labs(fill='leto') +
   ggtitle('Brezposelnost na 1000 prebivalcev po regijah') +
@@ -65,11 +65,21 @@ zemljevid.brezposelnost.2018 <- ggplot() +
 
 #Grafki brezposelnosti v Sloveniji glede na stopnjo dosežene izobrazbe
 
-graf_izobrazba <- ggplot(data = izobrazba, mapping = aes(x=leto, y=brezposelnost)) +
+graf_izobrazba <- ggplot(data = izobrazba, mapping = aes(x=leto, y=brezposelnost, col="4")) +
   ggtitle('Brezposelnost glede na stopnjo dosežene izobrazbe') +
   geom_point() +
   #facet_grid( Drzava~.) +
   facet_wrap(izobrazbe~., ncol=3) +
   theme(axis.text.x = element_text(angle = 90, size = 6))
+
+
+#Brezposelnost glede na trajanje iskanja dela
+
+graf_trajanje <- ggplot((data = trajanje), aes(x=leto, y=brezposelnost, col=cas)) + geom_point() + geom_line() +
+  scale_x_continuous('Leto', breaks = seq(2008, 2018, 1), limits = c(2008,2018)) +
+  ggtitle('Brezposelnost na 1000 prebivalcev glede na čas iskanja dela')
+
+
+
 
 
