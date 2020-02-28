@@ -35,6 +35,9 @@ kolikšna je brezposelnost po različnih regijah v Sloveniji
 ter nekatere druge primerjave.
 
 
+<center>
+![](slike/slika.jpg)
+
 # Obdelava, uvoz in čiščenje podatkov
 
 ```{r uvoz, echo=FALSE, message=FALSE}
@@ -140,17 +143,29 @@ plot(graf_izobrazba)
 ***
 # Napredna analiza podatkov
 
-#```{r analiza, echo=FALSE, message=FALSE}
-#source("analiza/analiza.r", encoding="UTF-8")
+```{r analiza, echo=FALSE, message=FALSE}
+source("analiza/analiza_sabrina.r", encoding="UTF-8")
 ```
 
-Spodnji graf prikazuje povezavo med številom naselij in površino občine.
+
+```{r graf 4, echo=FALSE, fig.align='center', fig.cap='Graf 1'}
+plot(graf_regresija)
+```
+
+
 
 
 ```
 
 ***
 
-#```{r shiny, echo=FALSE}
-#shinyAppDir("shiny", options=list(width="100%", height=600))
+```{r shiny, echo=FALSE}
+shinyAppDir("shiny", options=list(width="100%", height=600))
 ```
+
+```{r graf 5, echo=FALSE, fig.align='center', fig.cap='Graf 1'}
+plot(graf_shiny)
+```
+
+
+

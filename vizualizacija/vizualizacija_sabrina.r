@@ -14,12 +14,13 @@ source('uvoz/uvoz_s.r', encoding = 'UTF-8')
 
 
 #Brezposelnost v Sloveniji na splošno
-osnovni_graf <- ggplot(slovenija, aes(x=leto, y=brezposelnost))+
+osnovni_graf <- ggplot(slovenija, aes(x=leto, y=brezposelnost), )+
   ggtitle('Brezposelnost glede na celotno Slovenijo v 1000')+
   geom_bar(stat = 'identity', position = 'dodge')
 
 
-#Graf stopnje brezposelnosti skozi leta glede na staistične
+
+#Graf stopnje brezposelnosti skozi leta glede na staistične regije
 vec_graf <- ggplot(data = graf_regije, mapping = aes(x=regija, y=stopnja_brezposelnosti, fill=factor(leto))) +
   labs(fill='leto') +
   ggtitle('Brezposelnost na 1000 prebivalcev po regijah') +
@@ -47,7 +48,7 @@ zemljevid.brezposelnost.2010 <- ggplot() +
                aes(x = long, y = lat, group = group, fill = stopnja_brezposelnosti))+
   xlab("") + ylab("") + ggtitle('Brezposelnost v letu 2010') + 
   theme(axis.title=element_blank(), axis.text=element_blank(), axis.ticks=element_blank(), panel.background = element_blank()) + 
-  scale_fill_gradient(low = '#DEA1D6', high='#D002B4', limits=c(3,12))
+  scale_fill_gradient(low = '#FCDADA', high='#970303', limits=c(3,12))
 
 
   #za leto 2018
@@ -57,7 +58,7 @@ zemljevid.brezposelnost.2018 <- ggplot() +
                aes(x = long, y = lat, group = group, fill = stopnja_brezposelnosti))+
   xlab("") + ylab("") + ggtitle('Brezposelnost v letu 2018') + 
   theme(axis.title=element_blank(), axis.text=element_blank(), axis.ticks=element_blank(), panel.background = element_blank()) + 
-  scale_fill_gradient(low = '#DEA1D6', high='#D002B4',limits=c(3,12))
+  scale_fill_gradient(low = '#FCDADA', high='#970303',limits=c(3,12))
 
 
 

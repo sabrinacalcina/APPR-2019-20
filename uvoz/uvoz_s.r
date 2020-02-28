@@ -26,17 +26,13 @@ brezposelnost.izobrazba <- transform(brezposelnost.izobrazba, srednja_strokovna 
 brezposelnost.izobrazba <- transform(brezposelnost.izobrazba, visjesolska_visokosolska = (visjesolska_visokosolska * 1000))
 
 
-#4.tabela-brezposelnost po trajanju iskanja dela(ok za zemljevid)
-brezposelnost.iskanje <- read.csv2(file="podatki/brezposelnost_iskanje_spol.csv", header=TRUE, skip = 2, na=c('N'),  
-                                   col.names = c("nekaj", "spol", "leto",  "manj_kot_en_mesec", "od_1_do_5_mesecev", "od_6_do_11_mesecev", "od_12_do_23_mesecev", "vec_kot_24_mesecev"),)
-brezposelnost.iskanje <- brezposelnost.iskanje[,-1]
+#4.tabela-brezposelnost po trajanju iskanja dela za celotno Slovenijo(ok za zemljevid)
+trajanje <- read.csv2(file="podatki/trajanje.csv", header=TRUE, skip = 2, na=c('N'),  
+                                   col.names = c("nekaj","čas", "spol", "leto",  "skip", "brezposelnost"))
 
-brezposelnost.iskanje <- transform(brezposelnost.iskanje, en_mesec = (manj_kot_en_mesec * 1000))
-brezposelnost.iskanje <- transform(brezposelnost.iskanje, pet_mesecev = (od_1_do_5_mesecev * 1000))
-brezposelnost.iskanje <- transform(brezposelnost.iskanje, enajst_mesecev = (od_6_do_11_mesecev * 1000))
-brezposelnost.iskanje <- transform(brezposelnost.iskanje, tridva_mesecev = (od_12_do_23_mesecev * 1000))
-brezposelnost.iskanje <- transform(brezposelnost.iskanje, vec_mesecev = (vec_kot_24_mesecev * 1000))
-
+trajanje <- trajanje[,-5]
+trajanje <- trajanje[,-3]
+trajanje <- trajanje[,-1]
 
 
 #6.tabela-brezposelnost v Sloveniji
@@ -65,6 +61,20 @@ izobrazba <- izobrazba[, -3]
 izobrazba <- izobrazba[, -2]
 
 #izobrazba <- transform(izobrazba, brezposelnost = (brezposelnost*1000))
+
+
+#8.tabela-kriminaliteta v Sloveniji glede na statistične regije
+kriminaliteta <- read.csv2(file="podatki/kriminaliteta.csv", header=TRUE, skip = 2, 
+                       col.names = c("regija", "nekaj", "leto", "obsojeni"))        
+kriminaliteta <- kriminaliteta[,-2]
+
+
+
+#9.tabela za Shiny
+
+povprecje <- left_join(kriminaliteta, graf_regije, by=c('regija','leto'))
+colnames(povprecje) <- c('regija', 'leto', 'obsojeni',  'stopnja_brezposelnost')
+
 
 
 
