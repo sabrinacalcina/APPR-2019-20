@@ -65,6 +65,10 @@ colnames(povprecje) <- c('regija', 'leto', 'obsojeni',  'stopnja_brezposelnost')
 povprecje$stopnja_brezposelnost <- as.numeric(povprecje$stopnja_brezposelnost)
 
 
+#6.tabela- Delovno sposobni glede na aktivnost in mere aktivnosti po starostnih skupinah in spolu za celotno Slovenijo
+aktivnost <- read.csv2(file="podatki/aktivnosti.csv", header=TRUE, skip = 1, 
+                           col.names = c("regija", "starostna_skupina","spol", "leto", "meritve", "delovno_sposobni"), dec = '.') 
 
 
+aktivnost<-aktivnost[,-1]
 

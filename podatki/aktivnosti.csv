@@ -1,0 +1,707 @@
+"Delovno sposobni glede na aktivnost in mere aktivnosti po starostnih skupinah, spolu in kohezijskih regijah, Slovenija, letno"
+
+"KOHEZIJSKA REGIJA";"STAROSTNE SKUPINE";"SPOL";"LETO";"MERITVE";Delovno sposobni
+"SLOVENIJA";"15-24 let";"Moški";"2008";"Aktivni (v 1000)";65
+"SLOVENIJA";"15-24 let";"Moški";"2008";"Delovno aktivni (v 1000)";58
+"SLOVENIJA";"15-24 let";"Moški";"2008";"Brezposelni (v 1000)";6
+"SLOVENIJA";"15-24 let";"Moški";"2008";"Neaktivni (v 1000)";71
+"SLOVENIJA";"15-24 let";"Moški";"2009";"Aktivni (v 1000)";60
+"SLOVENIJA";"15-24 let";"Moški";"2009";"Delovno aktivni (v 1000)";51
+"SLOVENIJA";"15-24 let";"Moški";"2009";"Brezposelni (v 1000)";8
+"SLOVENIJA";"15-24 let";"Moški";"2009";"Neaktivni (v 1000)";71
+"SLOVENIJA";"15-24 let";"Moški";"2010";"Aktivni (v 1000)";57
+"SLOVENIJA";"15-24 let";"Moški";"2010";"Delovno aktivni (v 1000)";48
+"SLOVENIJA";"15-24 let";"Moški";"2010";"Brezposelni (v 1000)";9
+"SLOVENIJA";"15-24 let";"Moški";"2010";"Neaktivni (v 1000)";71
+"SLOVENIJA";"15-24 let";"Moški";"2011";"Aktivni (v 1000)";52
+"SLOVENIJA";"15-24 let";"Moški";"2011";"Delovno aktivni (v 1000)";44
+"SLOVENIJA";"15-24 let";"Moški";"2011";"Brezposelni (v 1000)";8
+"SLOVENIJA";"15-24 let";"Moški";"2011";"Neaktivni (v 1000)";71
+"SLOVENIJA";"15-24 let";"Moški";"2012";"Aktivni (v 1000)";46
+"SLOVENIJA";"15-24 let";"Moški";"2012";"Delovno aktivni (v 1000)";36
+"SLOVENIJA";"15-24 let";"Moški";"2012";"Brezposelni (v 1000)";9
+"SLOVENIJA";"15-24 let";"Moški";"2012";"Neaktivni (v 1000)";74
+"SLOVENIJA";"15-24 let";"Moški";"2013";"Aktivni (v 1000)";43
+"SLOVENIJA";"15-24 let";"Moški";"2013";"Delovno aktivni (v 1000)";34
+"SLOVENIJA";"15-24 let";"Moški";"2013";"Brezposelni (v 1000)";9
+"SLOVENIJA";"15-24 let";"Moški";"2013";"Neaktivni (v 1000)";72
+"SLOVENIJA";"15-24 let";"Moški";"2014";"Aktivni (v 1000)";40
+"SLOVENIJA";"15-24 let";"Moški";"2014";"Delovno aktivni (v 1000)";32
+"SLOVENIJA";"15-24 let";"Moški";"2014";"Brezposelni (v 1000)";8
+"SLOVENIJA";"15-24 let";"Moški";"2014";"Neaktivni (v 1000)";68
+"SLOVENIJA";"15-24 let";"Moški";"2015";"Aktivni (v 1000)";40
+"SLOVENIJA";"15-24 let";"Moški";"2015";"Delovno aktivni (v 1000)";33
+"SLOVENIJA";"15-24 let";"Moški";"2015";"Brezposelni (v 1000)";7
+"SLOVENIJA";"15-24 let";"Moški";"2015";"Neaktivni (v 1000)";63
+"SLOVENIJA";"15-24 let";"Moški";"2016";"Aktivni (v 1000)";38
+"SLOVENIJA";"15-24 let";"Moški";"2016";"Delovno aktivni (v 1000)";32
+"SLOVENIJA";"15-24 let";"Moški";"2016";"Brezposelni (v 1000)";6
+"SLOVENIJA";"15-24 let";"Moški";"2016";"Neaktivni (v 1000)";64
+"SLOVENIJA";"15-24 let";"Moški";"2017";"Aktivni (v 1000)";45
+"SLOVENIJA";"15-24 let";"Moški";"2017";"Delovno aktivni (v 1000)";40
+"SLOVENIJA";"15-24 let";"Moški";"2017";"Brezposelni (v 1000)";4
+"SLOVENIJA";"15-24 let";"Moški";"2017";"Neaktivni (v 1000)";60
+"SLOVENIJA";"15-24 let";"Moški";"2018";"Aktivni (v 1000)";43
+"SLOVENIJA";"15-24 let";"Moški";"2018";"Delovno aktivni (v 1000)";40
+"SLOVENIJA";"15-24 let";"Moški";"2018";"Brezposelni (v 1000)";4
+"SLOVENIJA";"15-24 let";"Moški";"2018";"Neaktivni (v 1000)";59
+"SLOVENIJA";"15-24 let";"Ženske";"2008";"Aktivni (v 1000)";45
+"SLOVENIJA";"15-24 let";"Ženske";"2008";"Delovno aktivni (v 1000)";39
+"SLOVENIJA";"15-24 let";"Ženske";"2008";"Brezposelni (v 1000)";5
+"SLOVENIJA";"15-24 let";"Ženske";"2008";"Neaktivni (v 1000)";74
+"SLOVENIJA";"15-24 let";"Ženske";"2009";"Aktivni (v 1000)";42
+"SLOVENIJA";"15-24 let";"Ženske";"2009";"Delovno aktivni (v 1000)";36
+"SLOVENIJA";"15-24 let";"Ženske";"2009";"Brezposelni (v 1000)";6
+"SLOVENIJA";"15-24 let";"Ženske";"2009";"Neaktivni (v 1000)";74
+"SLOVENIJA";"15-24 let";"Ženske";"2010";"Aktivni (v 1000)";39
+"SLOVENIJA";"15-24 let";"Ženske";"2010";"Delovno aktivni (v 1000)";33
+"SLOVENIJA";"15-24 let";"Ženske";"2010";"Brezposelni (v 1000)";5
+"SLOVENIJA";"15-24 let";"Ženske";"2010";"Neaktivni (v 1000)";73
+"SLOVENIJA";"15-24 let";"Ženske";"2011";"Aktivni (v 1000)";36
+"SLOVENIJA";"15-24 let";"Ženske";"2011";"Delovno aktivni (v 1000)";29
+"SLOVENIJA";"15-24 let";"Ženske";"2011";"Brezposelni (v 1000)";6
+"SLOVENIJA";"15-24 let";"Ženske";"2011";"Neaktivni (v 1000)";74
+"SLOVENIJA";"15-24 let";"Ženske";"2012";"Aktivni (v 1000)";31
+"SLOVENIJA";"15-24 let";"Ženske";"2012";"Delovno aktivni (v 1000)";25
+"SLOVENIJA";"15-24 let";"Ženske";"2012";"Brezposelni (v 1000)";7
+"SLOVENIJA";"15-24 let";"Ženske";"2012";"Neaktivni (v 1000)";73
+"SLOVENIJA";"15-24 let";"Ženske";"2013";"Aktivni (v 1000)";31
+"SLOVENIJA";"15-24 let";"Ženske";"2013";"Delovno aktivni (v 1000)";24
+"SLOVENIJA";"15-24 let";"Ženske";"2013";"Brezposelni (v 1000)";7
+"SLOVENIJA";"15-24 let";"Ženske";"2013";"Neaktivni (v 1000)";72
+"SLOVENIJA";"15-24 let";"Ženske";"2014";"Aktivni (v 1000)";31
+"SLOVENIJA";"15-24 let";"Ženske";"2014";"Delovno aktivni (v 1000)";24
+"SLOVENIJA";"15-24 let";"Ženske";"2014";"Brezposelni (v 1000)";7
+"SLOVENIJA";"15-24 let";"Ženske";"2014";"Neaktivni (v 1000)";70
+"SLOVENIJA";"15-24 let";"Ženske";"2015";"Aktivni (v 1000)";32
+"SLOVENIJA";"15-24 let";"Ženske";"2015";"Delovno aktivni (v 1000)";27
+"SLOVENIJA";"15-24 let";"Ženske";"2015";"Brezposelni (v 1000)";5
+"SLOVENIJA";"15-24 let";"Ženske";"2015";"Neaktivni (v 1000)";69
+"SLOVENIJA";"15-24 let";"Ženske";"2016";"Aktivni (v 1000)";30
+"SLOVENIJA";"15-24 let";"Ženske";"2016";"Delovno aktivni (v 1000)";26
+"SLOVENIJA";"15-24 let";"Ženske";"2016";"Brezposelni (v 1000)";4
+"SLOVENIJA";"15-24 let";"Ženske";"2016";"Neaktivni (v 1000)";69
+"SLOVENIJA";"15-24 let";"Ženske";"2017";"Aktivni (v 1000)";33
+"SLOVENIJA";"15-24 let";"Ženske";"2017";"Delovno aktivni (v 1000)";28
+"SLOVENIJA";"15-24 let";"Ženske";"2017";"Brezposelni (v 1000)";4
+"SLOVENIJA";"15-24 let";"Ženske";"2017";"Neaktivni (v 1000)";61
+"SLOVENIJA";"15-24 let";"Ženske";"2018";"Aktivni (v 1000)";32
+"SLOVENIJA";"15-24 let";"Ženske";"2018";"Delovno aktivni (v 1000)";29
+"SLOVENIJA";"15-24 let";"Ženske";"2018";"Brezposelni (v 1000)";3
+"SLOVENIJA";"15-24 let";"Ženske";"2018";"Neaktivni (v 1000)";61
+"SLOVENIJA";"15-29 let";"Moški";"2008";"Aktivni (v 1000)";135
+"SLOVENIJA";"15-29 let";"Moški";"2008";"Delovno aktivni (v 1000)";125
+"SLOVENIJA";"15-29 let";"Moški";"2008";"Brezposelni (v 1000)";10
+"SLOVENIJA";"15-29 let";"Moški";"2008";"Neaktivni (v 1000)";78
+"SLOVENIJA";"15-29 let";"Moški";"2009";"Aktivni (v 1000)";126
+"SLOVENIJA";"15-29 let";"Moški";"2009";"Delovno aktivni (v 1000)";112
+"SLOVENIJA";"15-29 let";"Moški";"2009";"Brezposelni (v 1000)";14
+"SLOVENIJA";"15-29 let";"Moški";"2009";"Neaktivni (v 1000)";79
+"SLOVENIJA";"15-29 let";"Moški";"2010";"Aktivni (v 1000)";122
+"SLOVENIJA";"15-29 let";"Moški";"2010";"Delovno aktivni (v 1000)";105
+"SLOVENIJA";"15-29 let";"Moški";"2010";"Brezposelni (v 1000)";17
+"SLOVENIJA";"15-29 let";"Moški";"2010";"Neaktivni (v 1000)";79
+"SLOVENIJA";"15-29 let";"Moški";"2011";"Aktivni (v 1000)";114
+"SLOVENIJA";"15-29 let";"Moški";"2011";"Delovno aktivni (v 1000)";98
+"SLOVENIJA";"15-29 let";"Moški";"2011";"Brezposelni (v 1000)";16
+"SLOVENIJA";"15-29 let";"Moški";"2011";"Neaktivni (v 1000)";79
+"SLOVENIJA";"15-29 let";"Moški";"2012";"Aktivni (v 1000)";106
+"SLOVENIJA";"15-29 let";"Moški";"2012";"Delovno aktivni (v 1000)";89
+"SLOVENIJA";"15-29 let";"Moški";"2012";"Brezposelni (v 1000)";17
+"SLOVENIJA";"15-29 let";"Moški";"2012";"Neaktivni (v 1000)";82
+"SLOVENIJA";"15-29 let";"Moški";"2013";"Aktivni (v 1000)";103
+"SLOVENIJA";"15-29 let";"Moški";"2013";"Delovno aktivni (v 1000)";85
+"SLOVENIJA";"15-29 let";"Moški";"2013";"Brezposelni (v 1000)";18
+"SLOVENIJA";"15-29 let";"Moški";"2013";"Neaktivni (v 1000)";79
+"SLOVENIJA";"15-29 let";"Moški";"2014";"Aktivni (v 1000)";101
+"SLOVENIJA";"15-29 let";"Moški";"2014";"Delovno aktivni (v 1000)";84
+"SLOVENIJA";"15-29 let";"Moški";"2014";"Brezposelni (v 1000)";16
+"SLOVENIJA";"15-29 let";"Moški";"2014";"Neaktivni (v 1000)";76
+"SLOVENIJA";"15-29 let";"Moški";"2015";"Aktivni (v 1000)";101
+"SLOVENIJA";"15-29 let";"Moški";"2015";"Delovno aktivni (v 1000)";86
+"SLOVENIJA";"15-29 let";"Moški";"2015";"Brezposelni (v 1000)";15
+"SLOVENIJA";"15-29 let";"Moški";"2015";"Neaktivni (v 1000)";71
+"SLOVENIJA";"15-29 let";"Moški";"2016";"Aktivni (v 1000)";96
+"SLOVENIJA";"15-29 let";"Moški";"2016";"Delovno aktivni (v 1000)";83
+"SLOVENIJA";"15-29 let";"Moški";"2016";"Brezposelni (v 1000)";13
+"SLOVENIJA";"15-29 let";"Moški";"2016";"Neaktivni (v 1000)";72
+"SLOVENIJA";"15-29 let";"Moški";"2017";"Aktivni (v 1000)";99
+"SLOVENIJA";"15-29 let";"Moški";"2017";"Delovno aktivni (v 1000)";91
+"SLOVENIJA";"15-29 let";"Moški";"2017";"Brezposelni (v 1000)";8
+"SLOVENIJA";"15-29 let";"Moški";"2017";"Neaktivni (v 1000)";65
+"SLOVENIJA";"15-29 let";"Moški";"2018";"Aktivni (v 1000)";97
+"SLOVENIJA";"15-29 let";"Moški";"2018";"Delovno aktivni (v 1000)";90
+"SLOVENIJA";"15-29 let";"Moški";"2018";"Brezposelni (v 1000)";8
+"SLOVENIJA";"15-29 let";"Moški";"2018";"Neaktivni (v 1000)";64
+"SLOVENIJA";"15-29 let";"Ženske";"2008";"Aktivni (v 1000)";108
+"SLOVENIJA";"15-29 let";"Ženske";"2008";"Delovno aktivni (v 1000)";97
+"SLOVENIJA";"15-29 let";"Ženske";"2008";"Brezposelni (v 1000)";10
+"SLOVENIJA";"15-29 let";"Ženske";"2008";"Neaktivni (v 1000)";85
+"SLOVENIJA";"15-29 let";"Ženske";"2009";"Aktivni (v 1000)";101
+"SLOVENIJA";"15-29 let";"Ženske";"2009";"Delovno aktivni (v 1000)";89
+"SLOVENIJA";"15-29 let";"Ženske";"2009";"Brezposelni (v 1000)";13
+"SLOVENIJA";"15-29 let";"Ženske";"2009";"Neaktivni (v 1000)";86
+"SLOVENIJA";"15-29 let";"Ženske";"2010";"Aktivni (v 1000)";100
+"SLOVENIJA";"15-29 let";"Ženske";"2010";"Delovno aktivni (v 1000)";86
+"SLOVENIJA";"15-29 let";"Ženske";"2010";"Brezposelni (v 1000)";14
+"SLOVENIJA";"15-29 let";"Ženske";"2010";"Neaktivni (v 1000)";84
+"SLOVENIJA";"15-29 let";"Ženske";"2011";"Aktivni (v 1000)";95
+"SLOVENIJA";"15-29 let";"Ženske";"2011";"Delovno aktivni (v 1000)";80
+"SLOVENIJA";"15-29 let";"Ženske";"2011";"Brezposelni (v 1000)";15
+"SLOVENIJA";"15-29 let";"Ženske";"2011";"Neaktivni (v 1000)";84
+"SLOVENIJA";"15-29 let";"Ženske";"2012";"Aktivni (v 1000)";90
+"SLOVENIJA";"15-29 let";"Ženske";"2012";"Delovno aktivni (v 1000)";73
+"SLOVENIJA";"15-29 let";"Ženske";"2012";"Brezposelni (v 1000)";17
+"SLOVENIJA";"15-29 let";"Ženske";"2012";"Neaktivni (v 1000)";84
+"SLOVENIJA";"15-29 let";"Ženske";"2013";"Aktivni (v 1000)";86
+"SLOVENIJA";"15-29 let";"Ženske";"2013";"Delovno aktivni (v 1000)";68
+"SLOVENIJA";"15-29 let";"Ženske";"2013";"Brezposelni (v 1000)";18
+"SLOVENIJA";"15-29 let";"Ženske";"2013";"Neaktivni (v 1000)";84
+"SLOVENIJA";"15-29 let";"Ženske";"2014";"Aktivni (v 1000)";81
+"SLOVENIJA";"15-29 let";"Ženske";"2014";"Delovno aktivni (v 1000)";63
+"SLOVENIJA";"15-29 let";"Ženske";"2014";"Brezposelni (v 1000)";18
+"SLOVENIJA";"15-29 let";"Ženske";"2014";"Neaktivni (v 1000)";85
+"SLOVENIJA";"15-29 let";"Ženske";"2015";"Aktivni (v 1000)";82
+"SLOVENIJA";"15-29 let";"Ženske";"2015";"Delovno aktivni (v 1000)";67
+"SLOVENIJA";"15-29 let";"Ženske";"2015";"Brezposelni (v 1000)";15
+"SLOVENIJA";"15-29 let";"Ženske";"2015";"Neaktivni (v 1000)";80
+"SLOVENIJA";"15-29 let";"Ženske";"2016";"Aktivni (v 1000)";78
+"SLOVENIJA";"15-29 let";"Ženske";"2016";"Delovno aktivni (v 1000)";65
+"SLOVENIJA";"15-29 let";"Ženske";"2016";"Brezposelni (v 1000)";13
+"SLOVENIJA";"15-29 let";"Ženske";"2016";"Neaktivni (v 1000)";79
+"SLOVENIJA";"15-29 let";"Ženske";"2017";"Aktivni (v 1000)";83
+"SLOVENIJA";"15-29 let";"Ženske";"2017";"Delovno aktivni (v 1000)";72
+"SLOVENIJA";"15-29 let";"Ženske";"2017";"Brezposelni (v 1000)";11
+"SLOVENIJA";"15-29 let";"Ženske";"2017";"Neaktivni (v 1000)";70
+"SLOVENIJA";"15-29 let";"Ženske";"2018";"Aktivni (v 1000)";79
+"SLOVENIJA";"15-29 let";"Ženske";"2018";"Delovno aktivni (v 1000)";71
+"SLOVENIJA";"15-29 let";"Ženske";"2018";"Brezposelni (v 1000)";8
+"SLOVENIJA";"15-29 let";"Ženske";"2018";"Neaktivni (v 1000)";70
+"SLOVENIJA";"25-49 let";"Moški";"2008";"Aktivni (v 1000)";368
+"SLOVENIJA";"25-49 let";"Moški";"2008";"Delovno aktivni (v 1000)";356
+"SLOVENIJA";"25-49 let";"Moški";"2008";"Brezposelni (v 1000)";12
+"SLOVENIJA";"25-49 let";"Moški";"2008";"Neaktivni (v 1000)";26
+"SLOVENIJA";"25-49 let";"Moški";"2009";"Aktivni (v 1000)";365
+"SLOVENIJA";"25-49 let";"Moški";"2009";"Delovno aktivni (v 1000)";346
+"SLOVENIJA";"25-49 let";"Moški";"2009";"Brezposelni (v 1000)";19
+"SLOVENIJA";"25-49 let";"Moški";"2009";"Neaktivni (v 1000)";27
+"SLOVENIJA";"25-49 let";"Moški";"2010";"Aktivni (v 1000)";364
+"SLOVENIJA";"25-49 let";"Moški";"2010";"Delovno aktivni (v 1000)";338
+"SLOVENIJA";"25-49 let";"Moški";"2010";"Brezposelni (v 1000)";27
+"SLOVENIJA";"25-49 let";"Moški";"2010";"Neaktivni (v 1000)";28
+"SLOVENIJA";"25-49 let";"Moški";"2011";"Aktivni (v 1000)";363
+"SLOVENIJA";"25-49 let";"Moški";"2011";"Delovno aktivni (v 1000)";336
+"SLOVENIJA";"25-49 let";"Moški";"2011";"Brezposelni (v 1000)";28
+"SLOVENIJA";"25-49 let";"Moški";"2011";"Neaktivni (v 1000)";26
+"SLOVENIJA";"25-49 let";"Moški";"2012";"Aktivni (v 1000)";363
+"SLOVENIJA";"25-49 let";"Moški";"2012";"Delovno aktivni (v 1000)";336
+"SLOVENIJA";"25-49 let";"Moški";"2012";"Brezposelni (v 1000)";28
+"SLOVENIJA";"25-49 let";"Moški";"2012";"Neaktivni (v 1000)";23
+"SLOVENIJA";"25-49 let";"Moški";"2013";"Aktivni (v 1000)";362
+"SLOVENIJA";"25-49 let";"Moški";"2013";"Delovno aktivni (v 1000)";331
+"SLOVENIJA";"25-49 let";"Moški";"2013";"Brezposelni (v 1000)";31
+"SLOVENIJA";"25-49 let";"Moški";"2013";"Neaktivni (v 1000)";24
+"SLOVENIJA";"25-49 let";"Moški";"2014";"Aktivni (v 1000)";362
+"SLOVENIJA";"25-49 let";"Moški";"2014";"Delovno aktivni (v 1000)";331
+"SLOVENIJA";"25-49 let";"Moški";"2014";"Brezposelni (v 1000)";31
+"SLOVENIJA";"25-49 let";"Moški";"2014";"Neaktivni (v 1000)";24
+"SLOVENIJA";"25-49 let";"Moški";"2015";"Aktivni (v 1000)";360
+"SLOVENIJA";"25-49 let";"Moški";"2015";"Delovno aktivni (v 1000)";333
+"SLOVENIJA";"25-49 let";"Moški";"2015";"Brezposelni (v 1000)";27
+"SLOVENIJA";"25-49 let";"Moški";"2015";"Neaktivni (v 1000)";23
+"SLOVENIJA";"25-49 let";"Moški";"2016";"Aktivni (v 1000)";353
+"SLOVENIJA";"25-49 let";"Moški";"2016";"Delovno aktivni (v 1000)";328
+"SLOVENIJA";"25-49 let";"Moški";"2016";"Brezposelni (v 1000)";25
+"SLOVENIJA";"25-49 let";"Moški";"2016";"Neaktivni (v 1000)";26
+"SLOVENIJA";"25-49 let";"Moški";"2017";"Aktivni (v 1000)";349
+"SLOVENIJA";"25-49 let";"Moški";"2017";"Delovno aktivni (v 1000)";332
+"SLOVENIJA";"25-49 let";"Moški";"2017";"Brezposelni (v 1000)";17
+"SLOVENIJA";"25-49 let";"Moški";"2017";"Neaktivni (v 1000)";22
+"SLOVENIJA";"25-49 let";"Moški";"2018";"Aktivni (v 1000)";350
+"SLOVENIJA";"25-49 let";"Moški";"2018";"Delovno aktivni (v 1000)";335
+"SLOVENIJA";"25-49 let";"Moški";"2018";"Brezposelni (v 1000)";15
+"SLOVENIJA";"25-49 let";"Moški";"2018";"Neaktivni (v 1000)";20
+"SLOVENIJA";"25-49 let";"Ženske";"2008";"Aktivni (v 1000)";335
+"SLOVENIJA";"25-49 let";"Ženske";"2008";"Delovno aktivni (v 1000)";320
+"SLOVENIJA";"25-49 let";"Ženske";"2008";"Brezposelni (v 1000)";15
+"SLOVENIJA";"25-49 let";"Ženske";"2008";"Neaktivni (v 1000)";34
+"SLOVENIJA";"25-49 let";"Ženske";"2009";"Aktivni (v 1000)";331
+"SLOVENIJA";"25-49 let";"Ženske";"2009";"Delovno aktivni (v 1000)";312
+"SLOVENIJA";"25-49 let";"Ženske";"2009";"Brezposelni (v 1000)";19
+"SLOVENIJA";"25-49 let";"Ženske";"2009";"Neaktivni (v 1000)";38
+"SLOVENIJA";"25-49 let";"Ženske";"2010";"Aktivni (v 1000)";334
+"SLOVENIJA";"25-49 let";"Ženske";"2010";"Delovno aktivni (v 1000)";310
+"SLOVENIJA";"25-49 let";"Ženske";"2010";"Brezposelni (v 1000)";24
+"SLOVENIJA";"25-49 let";"Ženske";"2010";"Neaktivni (v 1000)";36
+"SLOVENIJA";"25-49 let";"Ženske";"2011";"Aktivni (v 1000)";331
+"SLOVENIJA";"25-49 let";"Ženske";"2011";"Delovno aktivni (v 1000)";304
+"SLOVENIJA";"25-49 let";"Ženske";"2011";"Brezposelni (v 1000)";27
+"SLOVENIJA";"25-49 let";"Ženske";"2011";"Neaktivni (v 1000)";36
+"SLOVENIJA";"25-49 let";"Ženske";"2012";"Aktivni (v 1000)";332
+"SLOVENIJA";"25-49 let";"Ženske";"2012";"Delovno aktivni (v 1000)";300
+"SLOVENIJA";"25-49 let";"Ženske";"2012";"Brezposelni (v 1000)";31
+"SLOVENIJA";"25-49 let";"Ženske";"2012";"Neaktivni (v 1000)";35
+"SLOVENIJA";"25-49 let";"Ženske";"2013";"Aktivni (v 1000)";324
+"SLOVENIJA";"25-49 let";"Ženske";"2013";"Delovno aktivni (v 1000)";289
+"SLOVENIJA";"25-49 let";"Ženske";"2013";"Brezposelni (v 1000)";35
+"SLOVENIJA";"25-49 let";"Ženske";"2013";"Neaktivni (v 1000)";38
+"SLOVENIJA";"25-49 let";"Ženske";"2014";"Aktivni (v 1000)";318
+"SLOVENIJA";"25-49 let";"Ženske";"2014";"Delovno aktivni (v 1000)";283
+"SLOVENIJA";"25-49 let";"Ženske";"2014";"Brezposelni (v 1000)";35
+"SLOVENIJA";"25-49 let";"Ženske";"2014";"Neaktivni (v 1000)";39
+"SLOVENIJA";"25-49 let";"Ženske";"2015";"Aktivni (v 1000)";314
+"SLOVENIJA";"25-49 let";"Ženske";"2015";"Delovno aktivni (v 1000)";281
+"SLOVENIJA";"25-49 let";"Ženske";"2015";"Brezposelni (v 1000)";33
+"SLOVENIJA";"25-49 let";"Ženske";"2015";"Neaktivni (v 1000)";37
+"SLOVENIJA";"25-49 let";"Ženske";"2016";"Aktivni (v 1000)";311
+"SLOVENIJA";"25-49 let";"Ženske";"2016";"Delovno aktivni (v 1000)";282
+"SLOVENIJA";"25-49 let";"Ženske";"2016";"Brezposelni (v 1000)";29
+"SLOVENIJA";"25-49 let";"Ženske";"2016";"Neaktivni (v 1000)";35
+"SLOVENIJA";"25-49 let";"Ženske";"2017";"Aktivni (v 1000)";315
+"SLOVENIJA";"25-49 let";"Ženske";"2017";"Delovno aktivni (v 1000)";290
+"SLOVENIJA";"25-49 let";"Ženske";"2017";"Brezposelni (v 1000)";25
+"SLOVENIJA";"25-49 let";"Ženske";"2017";"Neaktivni (v 1000)";31
+"SLOVENIJA";"25-49 let";"Ženske";"2018";"Aktivni (v 1000)";307
+"SLOVENIJA";"25-49 let";"Ženske";"2018";"Delovno aktivni (v 1000)";288
+"SLOVENIJA";"25-49 let";"Ženske";"2018";"Brezposelni (v 1000)";19
+"SLOVENIJA";"25-49 let";"Ženske";"2018";"Neaktivni (v 1000)";32
+"SLOVENIJA";"50-64 let";"Moški";"2008";"Aktivni (v 1000)";121
+"SLOVENIJA";"50-64 let";"Moški";"2008";"Delovno aktivni (v 1000)";117
+"SLOVENIJA";"50-64 let";"Moški";"2008";"Brezposelni (v 1000)";4
+"SLOVENIJA";"50-64 let";"Moški";"2008";"Neaktivni (v 1000)";80
+"SLOVENIJA";"50-64 let";"Moški";"2009";"Aktivni (v 1000)";125
+"SLOVENIJA";"50-64 let";"Moški";"2009";"Delovno aktivni (v 1000)";119
+"SLOVENIJA";"50-64 let";"Moški";"2009";"Brezposelni (v 1000)";6
+"SLOVENIJA";"50-64 let";"Moški";"2009";"Neaktivni (v 1000)";79
+"SLOVENIJA";"50-64 let";"Moški";"2010";"Aktivni (v 1000)";130
+"SLOVENIJA";"50-64 let";"Moški";"2010";"Delovno aktivni (v 1000)";123
+"SLOVENIJA";"50-64 let";"Moški";"2010";"Brezposelni (v 1000)";7
+"SLOVENIJA";"50-64 let";"Moški";"2010";"Neaktivni (v 1000)";81
+"SLOVENIJA";"50-64 let";"Moški";"2011";"Aktivni (v 1000)";125
+"SLOVENIJA";"50-64 let";"Moški";"2011";"Delovno aktivni (v 1000)";115
+"SLOVENIJA";"50-64 let";"Moški";"2011";"Brezposelni (v 1000)";10
+"SLOVENIJA";"50-64 let";"Moški";"2011";"Neaktivni (v 1000)";93
+"SLOVENIJA";"50-64 let";"Moški";"2012";"Aktivni (v 1000)";127
+"SLOVENIJA";"50-64 let";"Moški";"2012";"Delovno aktivni (v 1000)";118
+"SLOVENIJA";"50-64 let";"Moški";"2012";"Brezposelni (v 1000)";9
+"SLOVENIJA";"50-64 let";"Moški";"2012";"Neaktivni (v 1000)";94
+"SLOVENIJA";"50-64 let";"Moški";"2013";"Aktivni (v 1000)";132
+"SLOVENIJA";"50-64 let";"Moški";"2013";"Delovno aktivni (v 1000)";119
+"SLOVENIJA";"50-64 let";"Moški";"2013";"Brezposelni (v 1000)";12
+"SLOVENIJA";"50-64 let";"Moški";"2013";"Neaktivni (v 1000)";90
+"SLOVENIJA";"50-64 let";"Moški";"2014";"Aktivni (v 1000)";134
+"SLOVENIJA";"50-64 let";"Moški";"2014";"Delovno aktivni (v 1000)";123
+"SLOVENIJA";"50-64 let";"Moški";"2014";"Brezposelni (v 1000)";11
+"SLOVENIJA";"50-64 let";"Moški";"2014";"Neaktivni (v 1000)";92
+"SLOVENIJA";"50-64 let";"Moški";"2015";"Aktivni (v 1000)";135
+"SLOVENIJA";"50-64 let";"Moški";"2015";"Delovno aktivni (v 1000)";125
+"SLOVENIJA";"50-64 let";"Moški";"2015";"Brezposelni (v 1000)";10
+"SLOVENIJA";"50-64 let";"Moški";"2015";"Neaktivni (v 1000)";89
+"SLOVENIJA";"50-64 let";"Moški";"2016";"Aktivni (v 1000)";133
+"SLOVENIJA";"50-64 let";"Moški";"2016";"Delovno aktivni (v 1000)";124
+"SLOVENIJA";"50-64 let";"Moški";"2016";"Brezposelni (v 1000)";9
+"SLOVENIJA";"50-64 let";"Moški";"2016";"Neaktivni (v 1000)";89
+"SLOVENIJA";"50-64 let";"Moški";"2017";"Aktivni (v 1000)";144
+"SLOVENIJA";"50-64 let";"Moški";"2017";"Delovno aktivni (v 1000)";134
+"SLOVENIJA";"50-64 let";"Moški";"2017";"Brezposelni (v 1000)";10
+"SLOVENIJA";"50-64 let";"Moški";"2017";"Neaktivni (v 1000)";79
+"SLOVENIJA";"50-64 let";"Moški";"2018";"Aktivni (v 1000)";151
+"SLOVENIJA";"50-64 let";"Moški";"2018";"Delovno aktivni (v 1000)";144
+"SLOVENIJA";"50-64 let";"Moški";"2018";"Brezposelni (v 1000)";7
+"SLOVENIJA";"50-64 let";"Moški";"2018";"Neaktivni (v 1000)";73
+"SLOVENIJA";"50-64 let";"Ženske";"2008";"Aktivni (v 1000)";87
+"SLOVENIJA";"50-64 let";"Ženske";"2008";"Delovno aktivni (v 1000)";84
+"SLOVENIJA";"50-64 let";"Ženske";"2008";"Brezposelni (v 1000)";3
+"SLOVENIJA";"50-64 let";"Ženske";"2008";"Neaktivni (v 1000)";115
+"SLOVENIJA";"50-64 let";"Ženske";"2009";"Aktivni (v 1000)";94
+"SLOVENIJA";"50-64 let";"Ženske";"2009";"Delovno aktivni (v 1000)";91
+"SLOVENIJA";"50-64 let";"Ženske";"2009";"Brezposelni (v 1000)";3
+"SLOVENIJA";"50-64 let";"Ženske";"2009";"Neaktivni (v 1000)";109
+"SLOVENIJA";"50-64 let";"Ženske";"2010";"Aktivni (v 1000)";93
+"SLOVENIJA";"50-64 let";"Ženske";"2010";"Delovno aktivni (v 1000)";89
+"SLOVENIJA";"50-64 let";"Ženske";"2010";"Brezposelni (v 1000)";4
+"SLOVENIJA";"50-64 let";"Ženske";"2010";"Neaktivni (v 1000)";116
+"SLOVENIJA";"50-64 let";"Ženske";"2011";"Aktivni (v 1000)";92
+"SLOVENIJA";"50-64 let";"Ženske";"2011";"Delovno aktivni (v 1000)";87
+"SLOVENIJA";"50-64 let";"Ženske";"2011";"Brezposelni (v 1000)";6
+"SLOVENIJA";"50-64 let";"Ženske";"2011";"Neaktivni (v 1000)";122
+"SLOVENIJA";"50-64 let";"Ženske";"2012";"Aktivni (v 1000)";97
+"SLOVENIJA";"50-64 let";"Ženske";"2012";"Delovno aktivni (v 1000)";91
+"SLOVENIJA";"50-64 let";"Ženske";"2012";"Brezposelni (v 1000)";6
+"SLOVENIJA";"50-64 let";"Ženske";"2012";"Neaktivni (v 1000)";119
+"SLOVENIJA";"50-64 let";"Ženske";"2013";"Aktivni (v 1000)";99
+"SLOVENIJA";"50-64 let";"Ženske";"2013";"Delovno aktivni (v 1000)";91
+"SLOVENIJA";"50-64 let";"Ženske";"2013";"Brezposelni (v 1000)";8
+"SLOVENIJA";"50-64 let";"Ženske";"2013";"Neaktivni (v 1000)";118
+"SLOVENIJA";"50-64 let";"Ženske";"2014";"Aktivni (v 1000)";107
+"SLOVENIJA";"50-64 let";"Ženske";"2014";"Delovno aktivni (v 1000)";99
+"SLOVENIJA";"50-64 let";"Ženske";"2014";"Brezposelni (v 1000)";8
+"SLOVENIJA";"50-64 let";"Ženske";"2014";"Neaktivni (v 1000)";112
+"SLOVENIJA";"50-64 let";"Ženske";"2015";"Aktivni (v 1000)";111
+"SLOVENIJA";"50-64 let";"Ženske";"2015";"Delovno aktivni (v 1000)";102
+"SLOVENIJA";"50-64 let";"Ženske";"2015";"Brezposelni (v 1000)";9
+"SLOVENIJA";"50-64 let";"Ženske";"2015";"Neaktivni (v 1000)";109
+"SLOVENIJA";"50-64 let";"Ženske";"2016";"Aktivni (v 1000)";117
+"SLOVENIJA";"50-64 let";"Ženske";"2016";"Delovno aktivni (v 1000)";110
+"SLOVENIJA";"50-64 let";"Ženske";"2016";"Brezposelni (v 1000)";7
+"SLOVENIJA";"50-64 let";"Ženske";"2016";"Neaktivni (v 1000)";106
+"SLOVENIJA";"50-64 let";"Ženske";"2017";"Aktivni (v 1000)";126
+"SLOVENIJA";"50-64 let";"Ženske";"2017";"Delovno aktivni (v 1000)";119
+"SLOVENIJA";"50-64 let";"Ženske";"2017";"Brezposelni (v 1000)";6
+"SLOVENIJA";"50-64 let";"Ženske";"2017";"Neaktivni (v 1000)";100
+"SLOVENIJA";"50-64 let";"Ženske";"2018";"Aktivni (v 1000)";131
+"SLOVENIJA";"50-64 let";"Ženske";"2018";"Delovno aktivni (v 1000)";126
+"SLOVENIJA";"50-64 let";"Ženske";"2018";"Brezposelni (v 1000)";5
+"SLOVENIJA";"50-64 let";"Ženske";"2018";"Neaktivni (v 1000)";93
+"SLOVENIJA";"65 let in veè";"Moški";"2008";"Aktivni (v 1000)";11
+"SLOVENIJA";"65 let in veè";"Moški";"2008";"Delovno aktivni (v 1000)";11
+"SLOVENIJA";"65 let in veè";"Moški";"2008";"Brezposelni (v 1000)";N
+"SLOVENIJA";"65 let in veè";"Moški";"2008";"Neaktivni (v 1000)";119
+"SLOVENIJA";"65 let in veè";"Moški";"2009";"Aktivni (v 1000)";14
+"SLOVENIJA";"65 let in veè";"Moški";"2009";"Delovno aktivni (v 1000)";14
+"SLOVENIJA";"65 let in veè";"Moški";"2009";"Brezposelni (v 1000)";N
+"SLOVENIJA";"65 let in veè";"Moški";"2009";"Neaktivni (v 1000)";120
+"SLOVENIJA";"65 let in veè";"Moški";"2010";"Aktivni (v 1000)";14
+"SLOVENIJA";"65 let in veè";"Moški";"2010";"Delovno aktivni (v 1000)";14
+"SLOVENIJA";"65 let in veè";"Moški";"2010";"Brezposelni (v 1000)";N
+"SLOVENIJA";"65 let in veè";"Moški";"2010";"Neaktivni (v 1000)";121
+"SLOVENIJA";"65 let in veè";"Moški";"2011";"Aktivni (v 1000)";12
+"SLOVENIJA";"65 let in veè";"Moški";"2011";"Delovno aktivni (v 1000)";12
+"SLOVENIJA";"65 let in veè";"Moški";"2011";"Brezposelni (v 1000)";N
+"SLOVENIJA";"65 let in veè";"Moški";"2011";"Neaktivni (v 1000)";123
+"SLOVENIJA";"65 let in veè";"Moški";"2012";"Aktivni (v 1000)";10
+"SLOVENIJA";"65 let in veè";"Moški";"2012";"Delovno aktivni (v 1000)";10
+"SLOVENIJA";"65 let in veè";"Moški";"2012";"Brezposelni (v 1000)";N
+"SLOVENIJA";"65 let in veè";"Moški";"2012";"Neaktivni (v 1000)";129
+"SLOVENIJA";"65 let in veè";"Moški";"2013";"Aktivni (v 1000)";10
+"SLOVENIJA";"65 let in veè";"Moški";"2013";"Delovno aktivni (v 1000)";10
+"SLOVENIJA";"65 let in veè";"Moški";"2013";"Brezposelni (v 1000)";N
+"SLOVENIJA";"65 let in veè";"Moški";"2013";"Neaktivni (v 1000)";133
+"SLOVENIJA";"65 let in veè";"Moški";"2014";"Aktivni (v 1000)";13
+"SLOVENIJA";"65 let in veè";"Moški";"2014";"Delovno aktivni (v 1000)";13
+"SLOVENIJA";"65 let in veè";"Moški";"2014";"Brezposelni (v 1000)";N
+"SLOVENIJA";"65 let in veè";"Moški";"2014";"Neaktivni (v 1000)";133
+"SLOVENIJA";"65 let in veè";"Moški";"2015";"Aktivni (v 1000)";9
+"SLOVENIJA";"65 let in veè";"Moški";"2015";"Delovno aktivni (v 1000)";9
+"SLOVENIJA";"65 let in veè";"Moški";"2015";"Brezposelni (v 1000)";N
+"SLOVENIJA";"65 let in veè";"Moški";"2015";"Neaktivni (v 1000)";146
+"SLOVENIJA";"65 let in veè";"Moški";"2016";"Aktivni (v 1000)";7
+"SLOVENIJA";"65 let in veè";"Moški";"2016";"Delovno aktivni (v 1000)";7
+"SLOVENIJA";"65 let in veè";"Moški";"2016";"Brezposelni (v 1000)";N
+"SLOVENIJA";"65 let in veè";"Moški";"2016";"Neaktivni (v 1000)";156
+"SLOVENIJA";"65 let in veè";"Moški";"2017";"Aktivni (v 1000)";10
+"SLOVENIJA";"65 let in veè";"Moški";"2017";"Delovno aktivni (v 1000)";10
+"SLOVENIJA";"65 let in veè";"Moški";"2017";"Brezposelni (v 1000)";N
+"SLOVENIJA";"65 let in veè";"Moški";"2017";"Neaktivni (v 1000)";159
+"SLOVENIJA";"65 let in veè";"Moški";"2018";"Aktivni (v 1000)";11
+"SLOVENIJA";"65 let in veè";"Moški";"2018";"Delovno aktivni (v 1000)";11
+"SLOVENIJA";"65 let in veè";"Moški";"2018";"Brezposelni (v 1000)";N
+"SLOVENIJA";"65 let in veè";"Moški";"2018";"Neaktivni (v 1000)";161
+"SLOVENIJA";"65 let in veè";"Ženske";"2008";"Aktivni (v 1000)";10
+"SLOVENIJA";"65 let in veè";"Ženske";"2008";"Delovno aktivni (v 1000)";10
+"SLOVENIJA";"65 let in veè";"Ženske";"2008";"Brezposelni (v 1000)";N
+"SLOVENIJA";"65 let in veè";"Ženske";"2008";"Neaktivni (v 1000)";189
+"SLOVENIJA";"65 let in veè";"Ženske";"2009";"Aktivni (v 1000)";11
+"SLOVENIJA";"65 let in veè";"Ženske";"2009";"Delovno aktivni (v 1000)";11
+"SLOVENIJA";"65 let in veè";"Ženske";"2009";"Brezposelni (v 1000)";N
+"SLOVENIJA";"65 let in veè";"Ženske";"2009";"Neaktivni (v 1000)";192
+"SLOVENIJA";"65 let in veè";"Ženske";"2010";"Aktivni (v 1000)";10
+"SLOVENIJA";"65 let in veè";"Ženske";"2010";"Delovno aktivni (v 1000)";10
+"SLOVENIJA";"65 let in veè";"Ženske";"2010";"Brezposelni (v 1000)";N
+"SLOVENIJA";"65 let in veè";"Ženske";"2010";"Neaktivni (v 1000)";193
+"SLOVENIJA";"65 let in veè";"Ženske";"2011";"Aktivni (v 1000)";10
+"SLOVENIJA";"65 let in veè";"Ženske";"2011";"Delovno aktivni (v 1000)";10
+"SLOVENIJA";"65 let in veè";"Ženske";"2011";"Brezposelni (v 1000)";N
+"SLOVENIJA";"65 let in veè";"Ženske";"2011";"Neaktivni (v 1000)";195
+"SLOVENIJA";"65 let in veè";"Ženske";"2012";"Aktivni (v 1000)";8
+"SLOVENIJA";"65 let in veè";"Ženske";"2012";"Delovno aktivni (v 1000)";8
+"SLOVENIJA";"65 let in veè";"Ženske";"2012";"Brezposelni (v 1000)";N
+"SLOVENIJA";"65 let in veè";"Ženske";"2012";"Neaktivni (v 1000)";200
+"SLOVENIJA";"65 let in veè";"Ženske";"2013";"Aktivni (v 1000)";7
+"SLOVENIJA";"65 let in veè";"Ženske";"2013";"Delovno aktivni (v 1000)";7
+"SLOVENIJA";"65 let in veè";"Ženske";"2013";"Brezposelni (v 1000)";N
+"SLOVENIJA";"65 let in veè";"Ženske";"2013";"Neaktivni (v 1000)";205
+"SLOVENIJA";"65 let in veè";"Ženske";"2014";"Aktivni (v 1000)";11
+"SLOVENIJA";"65 let in veè";"Ženske";"2014";"Delovno aktivni (v 1000)";11
+"SLOVENIJA";"65 let in veè";"Ženske";"2014";"Brezposelni (v 1000)";N
+"SLOVENIJA";"65 let in veè";"Ženske";"2014";"Neaktivni (v 1000)";205
+"SLOVENIJA";"65 let in veè";"Ženske";"2015";"Aktivni (v 1000)";7
+"SLOVENIJA";"65 let in veè";"Ženske";"2015";"Delovno aktivni (v 1000)";7
+"SLOVENIJA";"65 let in veè";"Ženske";"2015";"Brezposelni (v 1000)";N
+"SLOVENIJA";"65 let in veè";"Ženske";"2015";"Neaktivni (v 1000)";214
+"SLOVENIJA";"65 let in veè";"Ženske";"2016";"Aktivni (v 1000)";5
+"SLOVENIJA";"65 let in veè";"Ženske";"2016";"Delovno aktivni (v 1000)";5
+"SLOVENIJA";"65 let in veè";"Ženske";"2016";"Brezposelni (v 1000)";N
+"SLOVENIJA";"65 let in veè";"Ženske";"2016";"Neaktivni (v 1000)";218
+"SLOVENIJA";"65 let in veè";"Ženske";"2017";"Aktivni (v 1000)";6
+"SLOVENIJA";"65 let in veè";"Ženske";"2017";"Delovno aktivni (v 1000)";6
+"SLOVENIJA";"65 let in veè";"Ženske";"2017";"Brezposelni (v 1000)";N
+"SLOVENIJA";"65 let in veè";"Ženske";"2017";"Neaktivni (v 1000)";220
+"SLOVENIJA";"65 let in veè";"Ženske";"2018";"Aktivni (v 1000)";7
+"SLOVENIJA";"65 let in veè";"Ženske";"2018";"Delovno aktivni (v 1000)";7
+"SLOVENIJA";"65 let in veè";"Ženske";"2018";"Brezposelni (v 1000)";N
+"SLOVENIJA";"65 let in veè";"Ženske";"2018";"Neaktivni (v 1000)";225
+"SLOVENIJA";"15-64 let";"Moški";"2008";"Aktivni (v 1000)";555
+"SLOVENIJA";"15-64 let";"Moški";"2008";"Delovno aktivni (v 1000)";532
+"SLOVENIJA";"15-64 let";"Moški";"2008";"Brezposelni (v 1000)";23
+"SLOVENIJA";"15-64 let";"Moški";"2008";"Neaktivni (v 1000)";177
+"SLOVENIJA";"15-64 let";"Moški";"2009";"Aktivni (v 1000)";550
+"SLOVENIJA";"15-64 let";"Moški";"2009";"Delovno aktivni (v 1000)";516
+"SLOVENIJA";"15-64 let";"Moški";"2009";"Brezposelni (v 1000)";33
+"SLOVENIJA";"15-64 let";"Moški";"2009";"Neaktivni (v 1000)";177
+"SLOVENIJA";"15-64 let";"Moški";"2010";"Aktivni (v 1000)";551
+"SLOVENIJA";"15-64 let";"Moški";"2010";"Delovno aktivni (v 1000)";509
+"SLOVENIJA";"15-64 let";"Moški";"2010";"Brezposelni (v 1000)";42
+"SLOVENIJA";"15-64 let";"Moški";"2010";"Neaktivni (v 1000)";180
+"SLOVENIJA";"15-64 let";"Moški";"2011";"Aktivni (v 1000)";540
+"SLOVENIJA";"15-64 let";"Moški";"2011";"Delovno aktivni (v 1000)";495
+"SLOVENIJA";"15-64 let";"Moški";"2011";"Brezposelni (v 1000)";45
+"SLOVENIJA";"15-64 let";"Moški";"2011";"Neaktivni (v 1000)";191
+"SLOVENIJA";"15-64 let";"Moški";"2012";"Aktivni (v 1000)";536
+"SLOVENIJA";"15-64 let";"Moški";"2012";"Delovno aktivni (v 1000)";490
+"SLOVENIJA";"15-64 let";"Moški";"2012";"Brezposelni (v 1000)";46
+"SLOVENIJA";"15-64 let";"Moški";"2012";"Neaktivni (v 1000)";191
+"SLOVENIJA";"15-64 let";"Moški";"2013";"Aktivni (v 1000)";536
+"SLOVENIJA";"15-64 let";"Moški";"2013";"Delovno aktivni (v 1000)";484
+"SLOVENIJA";"15-64 let";"Moški";"2013";"Brezposelni (v 1000)";52
+"SLOVENIJA";"15-64 let";"Moški";"2013";"Neaktivni (v 1000)";186
+"SLOVENIJA";"15-64 let";"Moški";"2014";"Aktivni (v 1000)";535
+"SLOVENIJA";"15-64 let";"Moški";"2014";"Delovno aktivni (v 1000)";486
+"SLOVENIJA";"15-64 let";"Moški";"2014";"Brezposelni (v 1000)";49
+"SLOVENIJA";"15-64 let";"Moški";"2014";"Neaktivni (v 1000)";184
+"SLOVENIJA";"15-64 let";"Moški";"2015";"Aktivni (v 1000)";536
+"SLOVENIJA";"15-64 let";"Moški";"2015";"Delovno aktivni (v 1000)";492
+"SLOVENIJA";"15-64 let";"Moški";"2015";"Brezposelni (v 1000)";44
+"SLOVENIJA";"15-64 let";"Moški";"2015";"Neaktivni (v 1000)";175
+"SLOVENIJA";"15-64 let";"Moški";"2016";"Aktivni (v 1000)";524
+"SLOVENIJA";"15-64 let";"Moški";"2016";"Delovno aktivni (v 1000)";484
+"SLOVENIJA";"15-64 let";"Moški";"2016";"Brezposelni (v 1000)";40
+"SLOVENIJA";"15-64 let";"Moški";"2016";"Neaktivni (v 1000)";179
+"SLOVENIJA";"15-64 let";"Moški";"2017";"Aktivni (v 1000)";538
+"SLOVENIJA";"15-64 let";"Moški";"2017";"Delovno aktivni (v 1000)";506
+"SLOVENIJA";"15-64 let";"Moški";"2017";"Brezposelni (v 1000)";32
+"SLOVENIJA";"15-64 let";"Moški";"2017";"Neaktivni (v 1000)";160
+"SLOVENIJA";"15-64 let";"Moški";"2018";"Aktivni (v 1000)";544
+"SLOVENIJA";"15-64 let";"Moški";"2018";"Delovno aktivni (v 1000)";519
+"SLOVENIJA";"15-64 let";"Moški";"2018";"Brezposelni (v 1000)";26
+"SLOVENIJA";"15-64 let";"Moški";"2018";"Neaktivni (v 1000)";152
+"SLOVENIJA";"15-64 let";"Ženske";"2008";"Aktivni (v 1000)";467
+"SLOVENIJA";"15-64 let";"Ženske";"2008";"Delovno aktivni (v 1000)";443
+"SLOVENIJA";"15-64 let";"Ženske";"2008";"Brezposelni (v 1000)";23
+"SLOVENIJA";"15-64 let";"Ženske";"2008";"Neaktivni (v 1000)";224
+"SLOVENIJA";"15-64 let";"Ženske";"2009";"Aktivni (v 1000)";466
+"SLOVENIJA";"15-64 let";"Ženske";"2009";"Delovno aktivni (v 1000)";439
+"SLOVENIJA";"15-64 let";"Ženske";"2009";"Brezposelni (v 1000)";28
+"SLOVENIJA";"15-64 let";"Ženske";"2009";"Neaktivni (v 1000)";221
+"SLOVENIJA";"15-64 let";"Ženske";"2010";"Aktivni (v 1000)";466
+"SLOVENIJA";"15-64 let";"Ženske";"2010";"Delovno aktivni (v 1000)";432
+"SLOVENIJA";"15-64 let";"Ženske";"2010";"Brezposelni (v 1000)";34
+"SLOVENIJA";"15-64 let";"Ženske";"2010";"Neaktivni (v 1000)";225
+"SLOVENIJA";"15-64 let";"Ženske";"2011";"Aktivni (v 1000)";459
+"SLOVENIJA";"15-64 let";"Ženske";"2011";"Delovno aktivni (v 1000)";420
+"SLOVENIJA";"15-64 let";"Ženske";"2011";"Brezposelni (v 1000)";38
+"SLOVENIJA";"15-64 let";"Ženske";"2011";"Neaktivni (v 1000)";231
+"SLOVENIJA";"15-64 let";"Ženske";"2012";"Aktivni (v 1000)";460
+"SLOVENIJA";"15-64 let";"Ženske";"2012";"Delovno aktivni (v 1000)";416
+"SLOVENIJA";"15-64 let";"Ženske";"2012";"Brezposelni (v 1000)";44
+"SLOVENIJA";"15-64 let";"Ženske";"2012";"Neaktivni (v 1000)";227
+"SLOVENIJA";"15-64 let";"Ženske";"2013";"Aktivni (v 1000)";454
+"SLOVENIJA";"15-64 let";"Ženske";"2013";"Delovno aktivni (v 1000)";404
+"SLOVENIJA";"15-64 let";"Ženske";"2013";"Brezposelni (v 1000)";50
+"SLOVENIJA";"15-64 let";"Ženske";"2013";"Neaktivni (v 1000)";228
+"SLOVENIJA";"15-64 let";"Ženske";"2014";"Aktivni (v 1000)";456
+"SLOVENIJA";"15-64 let";"Ženske";"2014";"Delovno aktivni (v 1000)";407
+"SLOVENIJA";"15-64 let";"Ženske";"2014";"Brezposelni (v 1000)";49
+"SLOVENIJA";"15-64 let";"Ženske";"2014";"Neaktivni (v 1000)";222
+"SLOVENIJA";"15-64 let";"Ženske";"2015";"Aktivni (v 1000)";457
+"SLOVENIJA";"15-64 let";"Ženske";"2015";"Delovno aktivni (v 1000)";410
+"SLOVENIJA";"15-64 let";"Ženske";"2015";"Brezposelni (v 1000)";47
+"SLOVENIJA";"15-64 let";"Ženske";"2015";"Neaktivni (v 1000)";215
+"SLOVENIJA";"15-64 let";"Ženske";"2016";"Aktivni (v 1000)";458
+"SLOVENIJA";"15-64 let";"Ženske";"2016";"Delovno aktivni (v 1000)";419
+"SLOVENIJA";"15-64 let";"Ženske";"2016";"Brezposelni (v 1000)";40
+"SLOVENIJA";"15-64 let";"Ženske";"2016";"Neaktivni (v 1000)";210
+"SLOVENIJA";"15-64 let";"Ženske";"2017";"Aktivni (v 1000)";473
+"SLOVENIJA";"15-64 let";"Ženske";"2017";"Delovno aktivni (v 1000)";437
+"SLOVENIJA";"15-64 let";"Ženske";"2017";"Brezposelni (v 1000)";36
+"SLOVENIJA";"15-64 let";"Ženske";"2017";"Neaktivni (v 1000)";191
+"SLOVENIJA";"15-64 let";"Ženske";"2018";"Aktivni (v 1000)";471
+"SLOVENIJA";"15-64 let";"Ženske";"2018";"Delovno aktivni (v 1000)";443
+"SLOVENIJA";"15-64 let";"Ženske";"2018";"Brezposelni (v 1000)";27
+"SLOVENIJA";"15-64 let";"Ženske";"2018";"Neaktivni (v 1000)";186
+"SLOVENIJA";"20-64 let";"Moški";"2008";"Aktivni (v 1000)";542
+"SLOVENIJA";"20-64 let";"Moški";"2008";"Delovno aktivni (v 1000)";521
+"SLOVENIJA";"20-64 let";"Moški";"2008";"Brezposelni (v 1000)";22
+"SLOVENIJA";"20-64 let";"Moški";"2008";"Neaktivni (v 1000)";131
+"SLOVENIJA";"20-64 let";"Moški";"2009";"Aktivni (v 1000)";539
+"SLOVENIJA";"20-64 let";"Moški";"2009";"Delovno aktivni (v 1000)";507
+"SLOVENIJA";"20-64 let";"Moški";"2009";"Brezposelni (v 1000)";32
+"SLOVENIJA";"20-64 let";"Moški";"2009";"Neaktivni (v 1000)";132
+"SLOVENIJA";"20-64 let";"Moški";"2010";"Aktivni (v 1000)";541
+"SLOVENIJA";"20-64 let";"Moški";"2010";"Delovno aktivni (v 1000)";501
+"SLOVENIJA";"20-64 let";"Moški";"2010";"Brezposelni (v 1000)";40
+"SLOVENIJA";"20-64 let";"Moški";"2010";"Neaktivni (v 1000)";136
+"SLOVENIJA";"20-64 let";"Moški";"2011";"Aktivni (v 1000)";530
+"SLOVENIJA";"20-64 let";"Moški";"2011";"Delovno aktivni (v 1000)";487
+"SLOVENIJA";"20-64 let";"Moški";"2011";"Brezposelni (v 1000)";44
+"SLOVENIJA";"20-64 let";"Moški";"2011";"Neaktivni (v 1000)";148
+"SLOVENIJA";"20-64 let";"Moški";"2012";"Aktivni (v 1000)";530
+"SLOVENIJA";"20-64 let";"Moški";"2012";"Delovno aktivni (v 1000)";485
+"SLOVENIJA";"20-64 let";"Moški";"2012";"Brezposelni (v 1000)";45
+"SLOVENIJA";"20-64 let";"Moški";"2012";"Neaktivni (v 1000)";146
+"SLOVENIJA";"20-64 let";"Moški";"2013";"Aktivni (v 1000)";529
+"SLOVENIJA";"20-64 let";"Moški";"2013";"Delovno aktivni (v 1000)";478
+"SLOVENIJA";"20-64 let";"Moški";"2013";"Brezposelni (v 1000)";51
+"SLOVENIJA";"20-64 let";"Moški";"2013";"Neaktivni (v 1000)";143
+"SLOVENIJA";"20-64 let";"Moški";"2014";"Aktivni (v 1000)";528
+"SLOVENIJA";"20-64 let";"Moški";"2014";"Delovno aktivni (v 1000)";480
+"SLOVENIJA";"20-64 let";"Moški";"2014";"Brezposelni (v 1000)";48
+"SLOVENIJA";"20-64 let";"Moški";"2014";"Neaktivni (v 1000)";142
+"SLOVENIJA";"20-64 let";"Moški";"2015";"Aktivni (v 1000)";528
+"SLOVENIJA";"20-64 let";"Moški";"2015";"Delovno aktivni (v 1000)";485
+"SLOVENIJA";"20-64 let";"Moški";"2015";"Brezposelni (v 1000)";43
+"SLOVENIJA";"20-64 let";"Moški";"2015";"Neaktivni (v 1000)";134
+"SLOVENIJA";"20-64 let";"Moški";"2016";"Aktivni (v 1000)";519
+"SLOVENIJA";"20-64 let";"Moški";"2016";"Delovno aktivni (v 1000)";479
+"SLOVENIJA";"20-64 let";"Moški";"2016";"Brezposelni (v 1000)";39
+"SLOVENIJA";"20-64 let";"Moški";"2016";"Neaktivni (v 1000)";135
+"SLOVENIJA";"20-64 let";"Moški";"2017";"Aktivni (v 1000)";531
+"SLOVENIJA";"20-64 let";"Moški";"2017";"Delovno aktivni (v 1000)";500
+"SLOVENIJA";"20-64 let";"Moški";"2017";"Brezposelni (v 1000)";31
+"SLOVENIJA";"20-64 let";"Moški";"2017";"Neaktivni (v 1000)";119
+"SLOVENIJA";"20-64 let";"Moški";"2018";"Aktivni (v 1000)";537
+"SLOVENIJA";"20-64 let";"Moški";"2018";"Delovno aktivni (v 1000)";512
+"SLOVENIJA";"20-64 let";"Moški";"2018";"Brezposelni (v 1000)";25
+"SLOVENIJA";"20-64 let";"Moški";"2018";"Neaktivni (v 1000)";111
+"SLOVENIJA";"20-64 let";"Ženske";"2008";"Aktivni (v 1000)";457
+"SLOVENIJA";"20-64 let";"Ženske";"2008";"Delovno aktivni (v 1000)";435
+"SLOVENIJA";"20-64 let";"Ženske";"2008";"Brezposelni (v 1000)";22
+"SLOVENIJA";"20-64 let";"Ženske";"2008";"Neaktivni (v 1000)";178
+"SLOVENIJA";"20-64 let";"Ženske";"2009";"Aktivni (v 1000)";458
+"SLOVENIJA";"20-64 let";"Ženske";"2009";"Delovno aktivni (v 1000)";431
+"SLOVENIJA";"20-64 let";"Ženske";"2009";"Brezposelni (v 1000)";27
+"SLOVENIJA";"20-64 let";"Ženske";"2009";"Neaktivni (v 1000)";177
+"SLOVENIJA";"20-64 let";"Ženske";"2010";"Aktivni (v 1000)";458
+"SLOVENIJA";"20-64 let";"Ženske";"2010";"Delovno aktivni (v 1000)";425
+"SLOVENIJA";"20-64 let";"Ženske";"2010";"Brezposelni (v 1000)";32
+"SLOVENIJA";"20-64 let";"Ženske";"2010";"Neaktivni (v 1000)";182
+"SLOVENIJA";"20-64 let";"Ženske";"2011";"Aktivni (v 1000)";453
+"SLOVENIJA";"20-64 let";"Ženske";"2011";"Delovno aktivni (v 1000)";415
+"SLOVENIJA";"20-64 let";"Ženske";"2011";"Brezposelni (v 1000)";37
+"SLOVENIJA";"20-64 let";"Ženske";"2011";"Neaktivni (v 1000)";188
+"SLOVENIJA";"20-64 let";"Ženske";"2012";"Aktivni (v 1000)";456
+"SLOVENIJA";"20-64 let";"Ženske";"2012";"Delovno aktivni (v 1000)";413
+"SLOVENIJA";"20-64 let";"Ženske";"2012";"Brezposelni (v 1000)";43
+"SLOVENIJA";"20-64 let";"Ženske";"2012";"Neaktivni (v 1000)";183
+"SLOVENIJA";"20-64 let";"Ženske";"2013";"Aktivni (v 1000)";449
+"SLOVENIJA";"20-64 let";"Ženske";"2013";"Delovno aktivni (v 1000)";400
+"SLOVENIJA";"20-64 let";"Ženske";"2013";"Brezposelni (v 1000)";50
+"SLOVENIJA";"20-64 let";"Ženske";"2013";"Neaktivni (v 1000)";185
+"SLOVENIJA";"20-64 let";"Ženske";"2014";"Aktivni (v 1000)";450
+"SLOVENIJA";"20-64 let";"Ženske";"2014";"Delovno aktivni (v 1000)";402
+"SLOVENIJA";"20-64 let";"Ženske";"2014";"Brezposelni (v 1000)";48
+"SLOVENIJA";"20-64 let";"Ženske";"2014";"Neaktivni (v 1000)";181
+"SLOVENIJA";"20-64 let";"Ženske";"2015";"Aktivni (v 1000)";451
+"SLOVENIJA";"20-64 let";"Ženske";"2015";"Delovno aktivni (v 1000)";405
+"SLOVENIJA";"20-64 let";"Ženske";"2015";"Brezposelni (v 1000)";46
+"SLOVENIJA";"20-64 let";"Ženske";"2015";"Neaktivni (v 1000)";175
+"SLOVENIJA";"20-64 let";"Ženske";"2016";"Aktivni (v 1000)";454
+"SLOVENIJA";"20-64 let";"Ženske";"2016";"Delovno aktivni (v 1000)";415
+"SLOVENIJA";"20-64 let";"Ženske";"2016";"Brezposelni (v 1000)";39
+"SLOVENIJA";"20-64 let";"Ženske";"2016";"Neaktivni (v 1000)";168
+"SLOVENIJA";"20-64 let";"Ženske";"2017";"Aktivni (v 1000)";467
+"SLOVENIJA";"20-64 let";"Ženske";"2017";"Delovno aktivni (v 1000)";432
+"SLOVENIJA";"20-64 let";"Ženske";"2017";"Brezposelni (v 1000)";35
+"SLOVENIJA";"20-64 let";"Ženske";"2017";"Neaktivni (v 1000)";153
+"SLOVENIJA";"20-64 let";"Ženske";"2018";"Aktivni (v 1000)";465
+"SLOVENIJA";"20-64 let";"Ženske";"2018";"Delovno aktivni (v 1000)";438
+"SLOVENIJA";"20-64 let";"Ženske";"2018";"Brezposelni (v 1000)";27
+"SLOVENIJA";"20-64 let";"Ženske";"2018";"Neaktivni (v 1000)";146
+"SLOVENIJA";"55-64 let";"Moški";"2008";"Aktivni (v 1000)";57
+"SLOVENIJA";"55-64 let";"Moški";"2008";"Delovno aktivni (v 1000)";55
+"SLOVENIJA";"55-64 let";"Moški";"2008";"Brezposelni (v 1000)";2
+"SLOVENIJA";"55-64 let";"Moški";"2008";"Neaktivni (v 1000)";66
+"SLOVENIJA";"55-64 let";"Moški";"2009";"Aktivni (v 1000)";60
+"SLOVENIJA";"55-64 let";"Moški";"2009";"Delovno aktivni (v 1000)";58
+"SLOVENIJA";"55-64 let";"Moški";"2009";"Brezposelni (v 1000)";2
+"SLOVENIJA";"55-64 let";"Moški";"2009";"Neaktivni (v 1000)";65
+"SLOVENIJA";"55-64 let";"Moški";"2010";"Aktivni (v 1000)";63
+"SLOVENIJA";"55-64 let";"Moški";"2010";"Delovno aktivni (v 1000)";61
+"SLOVENIJA";"55-64 let";"Moški";"2010";"Brezposelni (v 1000)";3
+"SLOVENIJA";"55-64 let";"Moški";"2010";"Neaktivni (v 1000)";70
+"SLOVENIJA";"55-64 let";"Moški";"2011";"Aktivni (v 1000)";61
+"SLOVENIJA";"55-64 let";"Moški";"2011";"Delovno aktivni (v 1000)";56
+"SLOVENIJA";"55-64 let";"Moški";"2011";"Brezposelni (v 1000)";5
+"SLOVENIJA";"55-64 let";"Moški";"2011";"Neaktivni (v 1000)";81
+"SLOVENIJA";"55-64 let";"Moški";"2012";"Aktivni (v 1000)";63
+"SLOVENIJA";"55-64 let";"Moški";"2012";"Delovno aktivni (v 1000)";59
+"SLOVENIJA";"55-64 let";"Moški";"2012";"Brezposelni (v 1000)";4
+"SLOVENIJA";"55-64 let";"Moški";"2012";"Neaktivni (v 1000)";82
+"SLOVENIJA";"55-64 let";"Moški";"2013";"Aktivni (v 1000)";66
+"SLOVENIJA";"55-64 let";"Moški";"2013";"Delovno aktivni (v 1000)";61
+"SLOVENIJA";"55-64 let";"Moški";"2013";"Brezposelni (v 1000)";5
+"SLOVENIJA";"55-64 let";"Moški";"2013";"Neaktivni (v 1000)";80
+"SLOVENIJA";"55-64 let";"Moški";"2014";"Aktivni (v 1000)";67
+"SLOVENIJA";"55-64 let";"Moški";"2014";"Delovno aktivni (v 1000)";62
+"SLOVENIJA";"55-64 let";"Moški";"2014";"Brezposelni (v 1000)";6
+"SLOVENIJA";"55-64 let";"Moški";"2014";"Neaktivni (v 1000)";80
+"SLOVENIJA";"55-64 let";"Moški";"2015";"Aktivni (v 1000)";68
+"SLOVENIJA";"55-64 let";"Moški";"2015";"Delovno aktivni (v 1000)";63
+"SLOVENIJA";"55-64 let";"Moški";"2015";"Brezposelni (v 1000)";6
+"SLOVENIJA";"55-64 let";"Moški";"2015";"Neaktivni (v 1000)";79
+"SLOVENIJA";"55-64 let";"Moški";"2016";"Aktivni (v 1000)";70
+"SLOVENIJA";"55-64 let";"Moški";"2016";"Delovno aktivni (v 1000)";64
+"SLOVENIJA";"55-64 let";"Moški";"2016";"Brezposelni (v 1000)";5
+"SLOVENIJA";"55-64 let";"Moški";"2016";"Neaktivni (v 1000)";78
+"SLOVENIJA";"55-64 let";"Moški";"2017";"Aktivni (v 1000)";76
+"SLOVENIJA";"55-64 let";"Moški";"2017";"Delovno aktivni (v 1000)";70
+"SLOVENIJA";"55-64 let";"Moški";"2017";"Brezposelni (v 1000)";6
+"SLOVENIJA";"55-64 let";"Moški";"2017";"Neaktivni (v 1000)";71
+"SLOVENIJA";"55-64 let";"Moški";"2018";"Aktivni (v 1000)";81
+"SLOVENIJA";"55-64 let";"Moški";"2018";"Delovno aktivni (v 1000)";77
+"SLOVENIJA";"55-64 let";"Moški";"2018";"Brezposelni (v 1000)";4
+"SLOVENIJA";"55-64 let";"Moški";"2018";"Neaktivni (v 1000)";66
+"SLOVENIJA";"55-64 let";"Ženske";"2008";"Aktivni (v 1000)";28
+"SLOVENIJA";"55-64 let";"Ženske";"2008";"Delovno aktivni (v 1000)";27
+"SLOVENIJA";"55-64 let";"Ženske";"2008";"Brezposelni (v 1000)";1
+"SLOVENIJA";"55-64 let";"Ženske";"2008";"Neaktivni (v 1000)";99
+"SLOVENIJA";"55-64 let";"Ženske";"2009";"Aktivni (v 1000)";32
+"SLOVENIJA";"55-64 let";"Ženske";"2009";"Delovno aktivni (v 1000)";31
+"SLOVENIJA";"55-64 let";"Ženske";"2009";"Brezposelni (v 1000)";1
+"SLOVENIJA";"55-64 let";"Ženske";"2009";"Neaktivni (v 1000)";93
+"SLOVENIJA";"55-64 let";"Ženske";"2010";"Aktivni (v 1000)";34
+"SLOVENIJA";"55-64 let";"Ženske";"2010";"Delovno aktivni (v 1000)";33
+"SLOVENIJA";"55-64 let";"Ženske";"2010";"Brezposelni (v 1000)";1
+"SLOVENIJA";"55-64 let";"Ženske";"2010";"Neaktivni (v 1000)";100
+"SLOVENIJA";"55-64 let";"Ženske";"2011";"Aktivni (v 1000)";33
+"SLOVENIJA";"55-64 let";"Ženske";"2011";"Delovno aktivni (v 1000)";31
+"SLOVENIJA";"55-64 let";"Ženske";"2011";"Brezposelni (v 1000)";1
+"SLOVENIJA";"55-64 let";"Ženske";"2011";"Neaktivni (v 1000)";106
+"SLOVENIJA";"55-64 let";"Ženske";"2012";"Aktivni (v 1000)";38
+"SLOVENIJA";"55-64 let";"Ženske";"2012";"Delovno aktivni (v 1000)";36
+"SLOVENIJA";"55-64 let";"Ženske";"2012";"Brezposelni (v 1000)";2
+"SLOVENIJA";"55-64 let";"Ženske";"2012";"Neaktivni (v 1000)";107
+"SLOVENIJA";"55-64 let";"Ženske";"2013";"Aktivni (v 1000)";40
+"SLOVENIJA";"55-64 let";"Ženske";"2013";"Delovno aktivni (v 1000)";37
+"SLOVENIJA";"55-64 let";"Ženske";"2013";"Brezposelni (v 1000)";3
+"SLOVENIJA";"55-64 let";"Ženske";"2013";"Neaktivni (v 1000)";107
+"SLOVENIJA";"55-64 let";"Ženske";"2014";"Aktivni (v 1000)";46
+"SLOVENIJA";"55-64 let";"Ženske";"2014";"Delovno aktivni (v 1000)";43
+"SLOVENIJA";"55-64 let";"Ženske";"2014";"Brezposelni (v 1000)";3
+"SLOVENIJA";"55-64 let";"Ženske";"2014";"Neaktivni (v 1000)";101
+"SLOVENIJA";"55-64 let";"Ženske";"2015";"Aktivni (v 1000)";48
+"SLOVENIJA";"55-64 let";"Ženske";"2015";"Delovno aktivni (v 1000)";45
+"SLOVENIJA";"55-64 let";"Ženske";"2015";"Brezposelni (v 1000)";3
+"SLOVENIJA";"55-64 let";"Ženske";"2015";"Neaktivni (v 1000)";98
+"SLOVENIJA";"55-64 let";"Ženske";"2016";"Aktivni (v 1000)";51
+"SLOVENIJA";"55-64 let";"Ženske";"2016";"Delovno aktivni (v 1000)";48
+"SLOVENIJA";"55-64 let";"Ženske";"2016";"Brezposelni (v 1000)";3
+"SLOVENIJA";"55-64 let";"Ženske";"2016";"Neaktivni (v 1000)";94
+"SLOVENIJA";"55-64 let";"Ženske";"2017";"Aktivni (v 1000)";58
+"SLOVENIJA";"55-64 let";"Ženske";"2017";"Delovno aktivni (v 1000)";55
+"SLOVENIJA";"55-64 let";"Ženske";"2017";"Brezposelni (v 1000)";3
+"SLOVENIJA";"55-64 let";"Ženske";"2017";"Neaktivni (v 1000)";89
+"SLOVENIJA";"55-64 let";"Ženske";"2018";"Aktivni (v 1000)";65
+"SLOVENIJA";"55-64 let";"Ženske";"2018";"Delovno aktivni (v 1000)";62
+"SLOVENIJA";"55-64 let";"Ženske";"2018";"Brezposelni (v 1000)";3
+"SLOVENIJA";"55-64 let";"Ženske";"2018";"Neaktivni (v 1000)";83

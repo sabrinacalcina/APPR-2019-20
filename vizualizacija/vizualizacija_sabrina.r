@@ -78,7 +78,7 @@ graf_izobrazba <- ggplot(data = izobrazba, mapping = aes(x=leto, y=brezposelnost
 graf_trajanje <- ggplot((data = trajanje), aes(x=leto, y=brezposelnost, col=cas)) + geom_point() + geom_line() +
   scale_x_continuous('Leto', breaks = seq(2008, 2018, 1), limits = c(2008,2018)) +
   ggtitle('Brezposelnost na 1000 prebivalcev glede na čas iskanja dela')
-
+ 
 
 
 
