@@ -1,8 +1,8 @@
 library(shiny)
 
 shinyUI(fluidPage(
-  
-  titlePanel("Delovno sposobni glede na aktivnost in mere aktivnosti po starostnih skupinah in spolu za celotno Slovenijo"),
+    titlePanel("Delovno sposobni glede na aktivnost in mere aktivnosti po starostnih skupinah in spolu za celotno Slovenijo"),
+
   
   sidebarPanel(
     selectInput('spol','Spol',

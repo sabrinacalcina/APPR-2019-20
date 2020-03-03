@@ -2,7 +2,7 @@ source("lib/libraries.r")
 
 
 #1 tabela-brezposelnost po statističnih regijah (ok)
-brezposelnost.regije <- read.csv2(file="podatki/brezposelnost_po_statisticnih_regijah.csv", header=TRUE, skip = 3, dec = '.',
+brezposelnost.regije <- read.csv2(file="podatki/brezposelnost_po_statisticnih_regijah.csv", header=TRUE, fileEncoding="Windows-1250", skip = 3, dec = '.',
                                   col.names = c('leto', 'regija', 'stopnja_aktivnosti', "stopnja_delovne_aktivnosti", 'stopnja_brezposelnosti', 'delovna_aktivnost_glede_na_starostno_skupino'))
 
 graf_regije <- brezposelnost.regije[,-6]
@@ -20,7 +20,7 @@ brezposelnost.2018 <- filter(graf_regije, leto == '2018')
 
 
 #2.tabela-brezposelnost po trajanju iskanja dela za celotno Slovenijo(ok za zemljevid)
-trajanje <- read.csv2(file="podatki/trajanje.csv", header=TRUE, skip = 2, na=c('N'),  
+trajanje <- read.csv2(file="podatki/trajanje.csv", header=TRUE, skip = 2, na=c('N'), fileEncoding="Windows-1250", 
                                    col.names = c("nekaj","čas", "spol", "leto",  "skip", "brezposelnost"))
 
 trajanje <- trajanje[,-5]
@@ -29,7 +29,7 @@ trajanje <- trajanje[,-1]
 
 
 #3.tabela-brezposelnost v Sloveniji
-slovenija <- read.csv2(file="podatki/slovenija.csv", header=TRUE, skip = 1,  
+slovenija <- read.csv2(file="podatki/slovenija.csv", header=TRUE, skip = 1, fileEncoding="Windows-1250", 
                        col.names = c("kohezj", "skupine", "spol", "leto", "brezposelnost"))
 
 slovenija <- slovenija[,-3]
@@ -41,7 +41,7 @@ slovenija <- slovenija[,-1]
 
 
 #4.tabela-brezposelnost glede na stopnjo dosežene izobrazbe
-izobrazba <- read.csv2(file="podatki/izobrazba.csv", header=TRUE, skip = 2, 
+izobrazba <- read.csv2(file="podatki/izobrazba.csv", header=TRUE, skip = 2, fileEncoding="Windows-1250",
                                      col.names = c("leto", "Kohezijska_regija", "Spol", "izobrazbe", 
                                                    "meritve", "brezposelnost"))
 izobrazba <- izobrazba[, -5]
@@ -53,7 +53,7 @@ izobrazba <- izobrazba[, -2]
 
 #5.tabela-kriminaliteta v Sloveniji glede na statistične regije
 kriminaliteta <- read.csv2(file="podatki/kriminaliteta.csv", header=TRUE, skip = 2, 
-                       col.names = c("regija", "nekaj", "leto", "obsojeni"), dec = '.')        
+                       col.names = c("regija", "nekaj", "leto", "obsojeni"), dec = '.', fileEncoding="Windows-1250")        
 kriminaliteta <- kriminaliteta[,-2]
 
 
