@@ -15,6 +15,9 @@ library(maptools)
 library(maps)
 library(stringr)
 library(plotly)
+library(xts)
+library(dygraphs)
+
 
 # Uvozimo funkcije za pobiranje in uvoz zemljevida.
 source("lib/uvozi.zemljevid.r", encoding="UTF-8")

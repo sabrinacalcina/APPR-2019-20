@@ -2,10 +2,10 @@ library(dygraphs)
 library(shiny)
 
 shinyServer(
-  function(input, output) {
-  
-    output$moja_aktivnost <- renderPlot({
-      graf_aktivnost(input$spol, input$starostna_skupina, input$meritve)
-  })
+  function(input, output, session) {
+    output$aktivnost <- renderDygraph({ 
+      aktivnost <- aktivnost %>% filter(spol == input$spol & 
+                                          starostna_skupina == input$starostna_skupina & meritve == input$meritve)  })
   
 })
+

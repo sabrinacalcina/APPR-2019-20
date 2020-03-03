@@ -7,6 +7,7 @@ library(maptools)
 library(ggmap)
 library(mapproj)
 library(munsell)
+library(xts)
 
 source(file = 'lib/uvozi.zemljevid.r', encoding = 'UTF-8')
 source('lib/libraries.r', encoding = 'UTF-8')

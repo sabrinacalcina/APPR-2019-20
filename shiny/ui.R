@@ -6,8 +6,7 @@ shinyUI(fluidPage(
   
   sidebarPanel(
     selectInput('spol','Spol',
-                c('moski','zenski')),
-    br(),
+                c('Moški','Ženski')),
     selectInput('starostna_skupina','Starostna skupina',
                 levels(as.factor(aktivnost$starostna_skupina))),
     br(),
@@ -17,7 +16,7 @@ shinyUI(fluidPage(
   ),
   
   mainPanel(
-    plotOutput('moja_aktivnost')
+    plotOutput('aktivnost')
   )
   
 ))

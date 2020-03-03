@@ -66,9 +66,11 @@ povprecje$stopnja_brezposelnost <- as.numeric(povprecje$stopnja_brezposelnost)
 
 
 #6.tabela- Delovno sposobni glede na aktivnost in mere aktivnosti po starostnih skupinah in spolu za celotno Slovenijo
-aktivnost <- read.csv2(file="podatki/aktivnosti.csv", header=TRUE, skip = 1, 
-                           col.names = c("regija", "starostna_skupina","spol", "leto", "meritve", "delovno_sposobni"), dec = '.') 
+aktivnost <- read.csv2(file="podatki/aktivnosti.csv", header=TRUE, skip = 2, 
+                           col.names = c("regija", "starostna_skupina","spol", "leto", "meritve", "delovno_sposobni"), dec = '.', fileEncoding="Windows-1250") 
 
 
 aktivnost<-aktivnost[,-1]
+aktivnost$delovno_sposobni <- as.numeric(aktivnost$delovno_sposobni)
+aktivnost$leto <- as.numeric(aktivnost$leto)
 
