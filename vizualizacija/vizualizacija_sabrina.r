@@ -17,7 +17,11 @@ source('uvoz/uvoz_s.r', encoding = 'UTF-8')
 #Brezposelnost v Sloveniji na splošno
 osnovni_graf <- ggplot(slovenija, aes(x=leto, y=brezposelnost, fill="5"), )+
   ggtitle('Brezposelnost glede na celotno Slovenijo v 1000')+
-  geom_bar(stat = 'identity', position = 'dodge')
+  geom_bar(stat = 'identity', position = 'dodge') +
+  scale_x_continuous('Leto', breaks = seq(2008, 2018, 1), limits = c(2007,2019)) +
+  theme(legend.position = "none")
+
+  
 
 
 
@@ -69,9 +73,11 @@ zemljevid.brezposelnost.2018 <- ggplot() +
 graf_izobrazba <- ggplot(data = izobrazba, mapping = aes(x=leto, y=brezposelnost, col="4")) +
   ggtitle('Brezposelnost glede na stopnjo dosežene izobrazbe') +
   geom_point() +
-  #facet_grid( Drzava~.) +
   facet_wrap(izobrazbe~., ncol=3) +
-  theme(axis.text.x = element_text(angle = 90, size = 6))
+  theme(axis.text.x = element_text(angle = 90, size = 6))+
+  scale_x_continuous('Leto', breaks = seq(2008, 2018, 1), limits = c(2007,2019)) +
+  theme(legend.position = "none")
+
 
 
 #Brezposelnost glede na trajanje iskanja dela
