@@ -24,7 +24,6 @@ osnovni_graf <- ggplot(slovenija, aes(x=leto, y=brezposelnost, fill="5"), )+
   
 
 
-
 #Graf stopnje brezposelnosti skozi leta glede na staistične
 vec_graf <- ggplot(data = graf_regije, mapping = aes(x=regija, y=stopnja_brezposelnosti, fill=factor(leto))) +
   labs(fill='leto') +
@@ -84,8 +83,11 @@ graf_izobrazba <- ggplot(data = izobrazba, mapping = aes(x=leto, y=brezposelnost
 
 graf_trajanje <- ggplot((data = trajanje), aes(x=leto, y=brezposelnost, col=cas)) + geom_point() + geom_line() +
   scale_x_continuous('Leto', breaks = seq(2008, 2018, 1), limits = c(2008,2018)) +
-  ggtitle('Brezposelnost na 1000 prebivalcev glede na čas iskanja dela')
- 
+  ggtitle('Brezposelnost na 1000 prebivalcev glede na čas iskanja dela') +
+  labs(colour = "Čas iskanja dela")
+
+
+graf.trajanje <- ggplot((data=trajanje), aes(x=leto, y=brezposelnost, col=cas))
 
 
 
