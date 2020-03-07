@@ -7,10 +7,7 @@ library(maptools)
 library(ggmap)
 library(mapproj)
 
-
-source(file = 'lib/uvozi.zemljevid.r', encoding = 'UTF-8')
 source('lib/libraries.r', encoding = 'UTF-8')
-source('uvoz/uvoz_s.r', encoding = 'UTF-8')
 
 
 #Brezposelnost v Sloveniji na splošno
@@ -36,12 +33,9 @@ vec_graf <- ggplot(data = graf_regije, mapping = aes(x=regija, y=stopnja_brezpos
   #za leto 2010
 
 Slovenija <- uvozi.zemljevid("http://biogeo.ucdavis.edu/data/gadm2.8/shp/SVN_adm_shp.zip",
-                             "SVN_adm1") %>% fortify()
+                             "SVN_adm1", encoding="UTF-8") %>% fortify()
 colnames(Slovenija)[12]<-'regija'
-Slovenija$regija <- gsub('GoriÅ¡ka', 'Goriška', Slovenija$regija)
-Slovenija$regija <- gsub('KoroÅ¡ka', 'Koroška', Slovenija$regija)
-Slovenija$regija <- gsub('Notranjsko-kraÅ¡ka', 'Primorsko-notranjska', Slovenija$regija)
-Slovenija$regija <- gsub('Obalno-kraÅ¡ka', 'Obalno-kraška', Slovenija$regija)
+Slovenija$regija <- gsub('Notranjsko-kraška', 'Primorsko-notranjska', Slovenija$regija)
 Slovenija$regija <- gsub('Spodnjeposavska', 'Posavska', Slovenija$regija)
 
 
@@ -51,8 +45,8 @@ zemljevid.brezposelnost.2010 <- ggplot() +
                aes(x = long, y = lat, group = group, fill = stopnja_brezposelnosti))+
   xlab("") + ylab("") + ggtitle('Brezposelnost v letu 2010') + 
   theme(axis.title=element_blank(), axis.text=element_blank(), axis.ticks=element_blank(), panel.background = element_blank()) + 
-  scale_fill_gradient(low = '#FCDADA', high='#970303', limits=c(3,12))
-
+  scale_fill_gradient(low = '#FCDADA', high='#970303', limits=c(3,12)) +
+  labs(fill="Stopnja brezposelnosti")
 
   #za leto 2018
 
@@ -61,7 +55,9 @@ zemljevid.brezposelnost.2018 <- ggplot() +
                aes(x = long, y = lat, group = group, fill = stopnja_brezposelnosti))+
   xlab("") + ylab("") + ggtitle('Brezposelnost v letu 2018') + 
   theme(axis.title=element_blank(), axis.text=element_blank(), axis.ticks=element_blank(), panel.background = element_blank()) + 
-  scale_fill_gradient(low = '#FCDADA', high='#970303',limits=c(3,12))
+  scale_fill_gradient(low = '#FCDADA', high='#970303',limits=c(3,12)) +
+  labs(fill="Stopnja brezposelnosti")
+
 
 
 

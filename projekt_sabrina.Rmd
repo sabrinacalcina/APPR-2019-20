@@ -154,7 +154,7 @@ Največ je takih brezposelnih, ki delo iščejo že več kot leto dni. Presenetl
 # Napredna analiza podatkov
 
 ```{r analiza, echo=FALSE, message=FALSE}
-source("analiza/analiza_sabrina.r", encoding="UTF-8")
+source("analiza/analiza_sabrina.R", encoding="UTF-8")
 ```
 
 
