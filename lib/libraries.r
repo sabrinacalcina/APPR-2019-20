@@ -13,9 +13,7 @@ library(rgdal)
 library(mosaic)
 library(maptools)
 library(maps)
-library(stringr)
 library(plotly)
-library(xts)
 library(dygraphs)
 
 
