@@ -105,25 +105,25 @@ source("vizualizacija/vizualizacija_sabrina.r", encoding="UTF-8")
 
 Za začetek bi rada predstavila kako se je brezposelnost spreminjala v zadnjih desetih letih glede na celotno Slovenijo. Opazimo lahko, da je največja stopnja brezposelnosti dosežena leta 2013.
 
-```{r graf 1, echo=FALSE, fig.align='center', fig.cap='Graf 1'}
+```{r graf1, echo=FALSE, fig.align='center', fig.cap='Graf 1'}
 plot(osnovni_graf)
 ```
 
 V nadaljevanju, nas bo zanimala bolj podrobna slika brezposelnosti v Sloveniji, zato si oglejmo graf brezposelnosti po statističnih regijah, ter zlahka opazimo, da je bil višek brezposelnosti v Pomurski in Zasavski regiji.
 
 
-```{r graf 2, echo=FALSE, fig.align='center', fig.cap='Graf 1'}
+```{r graf2, echo=FALSE, fig.align='center', fig.cap='Graf 1'}
 plot(vec_graf)
 ```
 
 
 Poglejmo to še na zemljevidu Slovenije in sicer najprej za leto 2010, ter nato še za leto 2018.
 
-```{r zemljevid 1, echo=FALSE, fig.align='center', fig.cap='Zemljevid 1'}
+```{r zemljevid1, echo=FALSE, fig.align='center', fig.cap='Zemljevid 1'}
 plot(zemljevid.brezposelnost.2010)
 ```
 
-```{r zemljevid 2, echo=FALSE, fig.align='center', fig.cap='Zemljevid 1'}
+```{r zemljevid2, echo=FALSE, fig.align='center', fig.cap='Zemljevid 1'}
 plot(zemljevid.brezposelnost.2018)
 ```
 
@@ -134,7 +134,7 @@ Leta 2018 je slika nekoliko spremenjena. Še vedno je brezposelnost najvišja v 
 ***
 Omenili smo že, da nas bo zanimala povezava med brezposelnostjo in stopnjo dosežene izobrazbe.
 
-```{r graf 3, echo=FALSE, fig.align='center', fig.cap='Graf 1'}
+```{r graf3, echo=FALSE, fig.align='center', fig.cap='Graf 1'}
 plot(graf_izobrazba)
 ```
 
@@ -143,7 +143,7 @@ Vidimo, da je največ brezposelnih tistih s končano srednjo strokovno oz sploš
 ***
 
 
-```{r graf 4, echo=FALSE, fig.align='center', fig.cap='Graf 1'}
+```{r graf4, echo=FALSE, fig.align='center', fig.cap='Graf 1'}
 plot(graf_trajanje)
 ```
 
@@ -158,7 +158,7 @@ source("analiza/analiza_sabrina.R", encoding="UTF-8")
 ```
 
 
-```{r graf 5, echo=FALSE, fig.align='center', fig.cap='Graf 1'}
+```{r graf5, echo=FALSE, fig.align='center', fig.cap='Graf 1'}
 plot(graf_regresija)
 ```
 
